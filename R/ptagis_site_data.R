@@ -18,18 +18,18 @@ library(here)
 # library(janitor)
 
 # load PITcleanr
-remotes::install_github("mackerman44/PITcleanr@main", build_vignettes = T, force = T)
+# remotes::install_github("mackerman44/PITcleanr@main", build_vignettes = T, force = T)
 library(PITcleanr)
 browseVignettes("PITcleanr")
 
 # build original configuration table from PTAGIS (requires interwebs connection); queries all INT and MRR sites in PTAGIS
 og_config = buildConfig() 
 
-# filter to only Snake River sites and IPTDS
+# filter to only Snake River sites including IPTDS and adult fishways (CCW & IML)
 sr_config = og_config %>%
   filter(str_starts(rkm, "522"),
          site_type == "INT",
-         site_type_name == "Instream Remote Detection System") %>%
+         site_type_name == c("Adult Fishway", "Instream Remote Detection System")) %>%
   # get miniumum start and maximum end dates among antennas within a site
   group_by(site_code) %>%
   mutate(min_start_date = as_date(min(start_date, na.rm = T)),
@@ -37,7 +37,8 @@ sr_config = og_config %>%
   mutate(max_end_date = as_date(ifelse(max_end_date == -Inf, NA, max_end_date))) %>%
   #select(-start_date, -end_date) %>%
   select(site_code, 
-         site_name, 
+         site_name,
+         site_type_name,
          latitude, 
          longitude, 
          rkm, 
