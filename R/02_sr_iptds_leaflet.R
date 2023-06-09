@@ -17,6 +17,7 @@ rm(list = ls())
 library(tidyverse)
 library(sf)
 library(rnaturalearth)
+library(here)
 # library(janitor)
 # library(here)
 
@@ -27,6 +28,8 @@ library(rnaturalearth)
 pnw_states = ne_states(country = "united states of america", returnclass = "sf") %>%
   select(name) %>%
   filter(name %in% c("Idaho", "Oregon", "Washington"))
+
+#load(here("data/derived_data/spatial/SR_pops.rda"))
 
 # -----------------------
 # BUILD LEAFLET
