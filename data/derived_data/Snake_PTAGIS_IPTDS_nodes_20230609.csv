@@ -1,0 +1,980 @@
+site_code,site_name,node,antenna_id,antenna_group,config_id
+0HR,Henrys Instream Array,0HR,01,Main Array,100
+0HR,Henrys Instream Array,0HR,02,Main Array,100
+0HR,Henrys Instream Array,0HR,03,Main Array,100
+18M,Eighteenmile Creek,18MA0,01,Upstream Array,100
+18M,Eighteenmile Creek,18MA0,02,Middle Array,100
+18M,Eighteenmile Creek,18MB0,03,Downstream Array,100
+18M,Eighteenmile Creek,18MA0,01,Upstream Antenna,110
+18M,Eighteenmile Creek,18MB0,02,Downstream Antenna,110
+18M,Eighteenmile Creek,18MA0,01,Upstream Antenna,120
+18M,Eighteenmile Creek,18MB0,02,Downstream Antenna,120
+ACB,Asotin Cr. at Cloverland Brdg.,ACBB0,01,5-ANTENNA PARALLEL ARRAY,100
+ACB,Asotin Cr. at Cloverland Brdg.,ACBB0,02,5-ANTENNA PARALLEL ARRAY,100
+ACB,Asotin Cr. at Cloverland Brdg.,ACBB0,03,5-ANTENNA PARALLEL ARRAY,100
+ACB,Asotin Cr. at Cloverland Brdg.,ACBB0,04,5-ANTENNA PARALLEL ARRAY,100
+ACB,Asotin Cr. at Cloverland Brdg.,ACBB0,05,5-ANTENNA PARALLEL ARRAY,100
+ACB,Asotin Cr. at Cloverland Brdg.,ACBB0,01,Single Array,110
+ACB,Asotin Cr. at Cloverland Brdg.,ACBB0,02,Single Array,110
+ACB,Asotin Cr. at Cloverland Brdg.,ACBB0,03,Single Array,110
+ACB,Asotin Cr. at Cloverland Brdg.,ACBA0,01,Upstream Array,120
+ACB,Asotin Cr. at Cloverland Brdg.,ACBA0,02,Upstream Array,120
+ACB,Asotin Cr. at Cloverland Brdg.,ACBB0,03,Downstream Array,120
+ACB,Asotin Cr. at Cloverland Brdg.,ACBB0,04,Downstream Array,120
+ACM,Asotin Creek near mouth,ACMA0,F1,UPSTREAM ARRAY,100
+ACM,Asotin Creek near mouth,ACMA0,F2,UPSTREAM ARRAY,100
+ACM,Asotin Creek near mouth,ACMB0,F3,DOWNSTREAM ARRAY,100
+ACM,Asotin Creek near mouth,ACMB0,F4,DOWNSTREAM ARRAY,100
+ACM,Asotin Creek near mouth,ACMA0,01,UPSTREAM ARRAY,110
+ACM,Asotin Creek near mouth,ACMA0,02,UPSTREAM ARRAY,110
+ACM,Asotin Creek near mouth,ACMA0,03,MIDDLE ARRAY,110
+ACM,Asotin Creek near mouth,ACMA0,04,MIDDLE ARRAY,110
+ACM,Asotin Creek near mouth,ACMB0,05,DOWNSTREAM ARRAY,110
+ACM,Asotin Creek near mouth,ACMB0,06,DOWNSTREAM ARRAY,110
+AFC,No./So. Fk Asotin Cr. Jct. ISA,AFC,01,NORTH FORK ASOTIN CREEK ARRAY,100
+AFC,No./So. Fk Asotin Cr. Jct. ISA,AFC,02,NORTH FORK ASOTIN CREEK ARRAY,100
+AFC,No./So. Fk Asotin Cr. Jct. ISA,AFC,03,MAINSTEM ASOTIN CREEK ARRAY,100
+AFC,No./So. Fk Asotin Cr. Jct. ISA,AFC,04,MAINSTEM ASOTIN CREEK ARRAY,100
+AFC,No./So. Fk Asotin Cr. Jct. ISA,AFC,05,MAINSTEM ASOTIN CREEK ARRAY,100
+AFC,No./So. Fk Asotin Cr. Jct. ISA,AFC,06,SOUTH FORK ASOTIN CREEK ARRAY,100
+AFC,No./So. Fk Asotin Cr. Jct. ISA,AFC,01,North Fork Asotin Creek Array,110
+AFC,No./So. Fk Asotin Cr. Jct. ISA,AFC,02,South Fork Asotin Creek Array,110
+AFC,No./So. Fk Asotin Cr. Jct. ISA,AFC,03,Mainstem Asotin Creek Array,110
+AFC,No./So. Fk Asotin Cr. Jct. ISA,AFC,04,Mainstem Asotin Creek Array,110
+AFC,No./So. Fk Asotin Cr. Jct. ISA,AFC,05,Mainstem Asotin Creek Array,110
+AFC,No./So. Fk Asotin Cr. Jct. ISA,AFC,06,Mainstem Asotin Creek Array,110
+AGC,"Agency Creek, Lemhi R. Basin",AGCA0,01,Upstream Array,100
+AGC,"Agency Creek, Lemhi R. Basin",AGCA0,02,Middle Array,100
+AGC,"Agency Creek, Lemhi R. Basin",AGCB0,03,Downstream Array,100
+BBA,Big Bear Creek Array,BBAB0,01,Single Span,100
+BBA,Big Bear Creek Array,BBAB0,02,Single Span,100
+BBA,Big Bear Creek Array,BBAA0,01,Upstream Antenna,110
+BBA,Big Bear Creek Array,BBAB0,02,Downstream Antenna,110
+BHC,Bohannon Creek Lemhi R Basin,BHCA0,A1,UPSTREAM,100
+BHC,Bohannon Creek Lemhi R Basin,BHCB0,A2,DOWNSTREAM,100
+BHC,Bohannon Creek Lemhi R Basin,BHCA0,01,Upstream Array,110
+BHC,Bohannon Creek Lemhi R Basin,BHCA0,02,Middle Array,110
+BHC,Bohannon Creek Lemhi R Basin,BHCB0,03,Downstream Array,110
+BHC,Bohannon Creek Lemhi R Basin,BHCA0,01,Upstream Antenna,120
+BHC,Bohannon Creek Lemhi R Basin,BHCB0,02,Downstream Antenna,120
+BRC,Bear Valley Adult Video Weir,BRC,A1,Video Chamber,100
+BRC,Bear Valley Adult Video Weir,BRC,A2,Video Chamber,100
+BSC,Big Sheep Creek ISA at km 6,BSCA0,A1,UPSTREAM LEFT,100
+BSC,Big Sheep Creek ISA at km 6,BSCA0,A2,UPSTREAM RIGHT,100
+BSC,Big Sheep Creek ISA at km 6,BSCB0,A3,DOWNSTREAM LEFT,100
+BSC,Big Sheep Creek ISA at km 6,BSCB0,A4,DOWNSTREAM RIGHT,100
+BTC,Big Timber Creek,BTCA0,B1,UPSTREAM 10-FT PASSBY ANTENNA,100
+BTC,Big Timber Creek,BTCB0,B2,DNSTREAM 10-FT PASSBY ANTENNA,100
+BTL,"Lower Big Timber, Lemhi Basin",BTLA0,01,Upstream Array,100
+BTL,"Lower Big Timber, Lemhi Basin",BTLA0,02,Upstream Array,100
+BTL,"Lower Big Timber, Lemhi Basin",BTLA0,03,Middle Array,100
+BTL,"Lower Big Timber, Lemhi Basin",BTLA0,04,Middle Array,100
+BTL,"Lower Big Timber, Lemhi Basin",BTLB0,05,Downstream Array,100
+BTL,"Lower Big Timber, Lemhi Basin",BTLB0,06,Downstream Array,100
+BTL,"Lower Big Timber, Lemhi Basin",BTLA0,01,Upstream Antenna,110
+BTL,"Lower Big Timber, Lemhi Basin",BTLB0,02,Downstream Antenna,110
+BTL,"Lower Big Timber, Lemhi Basin",BTLA0,01,Upstream Antenna,120
+BTL,"Lower Big Timber, Lemhi Basin",BTLB0,02,Downstream Antenna,120
+BTM,Big Timber Creek - Middle,BTMA0,01,Upstream Array,100
+BTM,Big Timber Creek - Middle,BTMA0,02,Middle Array,100
+BTM,Big Timber Creek - Middle,BTMA0,03,Middle Array,100
+BTM,Big Timber Creek - Middle,BTMB0,04,Downstream Array,100
+BTU,Big Timber Creek - Upper,BTUA0,A1,Upstream Array,100
+BTU,Big Timber Creek - Upper,BTUA0,A2,Upstream Array,100
+BTU,Big Timber Creek - Upper,BTUB0,A3,Downstream Array,100
+BTU,Big Timber Creek - Upper,BTUB0,A4,Downstream Array,100
+BTU,Big Timber Creek - Upper,BTUA0,A1,Upstream Array,110
+BTU,Big Timber Creek - Upper,BTUA0,A2,Upstream Array,110
+BTU,Big Timber Creek - Upper,BTUB0,A3,Downstream Array,110
+BTU,Big Timber Creek - Upper,BTUB0,A4,Downstream Array,110
+CAC,Canyon Creek ISA @ km 1,CACA0,C1,UPSTREAM ANTENNA,100
+CAC,Canyon Creek ISA @ km 1,CACB0,C2,DOWNSTREAM ANTENNA,100
+CAC,Canyon Creek ISA @ km 1,CACA0,01,Upstream Antenna,110
+CAC,Canyon Creek ISA @ km 1,CACB0,02,Downstream Antenna,110
+CCA,Lower Charley Creek ISA,CCAB0,01,Single Antenna,80
+CCA,Lower Charley Creek ISA,CCAA0,01,Upstream Antenna,90
+CCA,Lower Charley Creek ISA,CCAB0,02,Downstream Antenna,90
+CCA,Lower Charley Creek ISA,CCAA0,F1,UPSTREAM ANTENNA,100
+CCA,Lower Charley Creek ISA,CCAB0,F2,DOWNSTREAM ANTENNA,100
+CCA,Lower Charley Creek ISA,CCAA0,01,UPSTREAM ANTENNA,110
+CCA,Lower Charley Creek ISA,CCAB0,02,DOWNSTREAM ANTENNA,110
+CCA,Lower Charley Creek ISA,CCAA0,03,UPSTREAM ANTENNA,120
+CCA,Lower Charley Creek ISA,CCAB0,04,DOWNSTREAM ANTENNA,120
+CCA,Lower Charley Creek ISA,CCAA0,03,Upstream Antenna,130
+CCA,Lower Charley Creek ISA,CCAA0,04,Middle Antenna,130
+CCA,Lower Charley Creek ISA,CCAB0,05,Downstream Antenna,130
+CCA,Lower Charley Creek ISA,CCAA0,01,Upstream Antenna,140
+CCA,Lower Charley Creek ISA,CCAA0,02,Middle Antenna,140
+CCA,Lower Charley Creek ISA,CCAB0,03,Downstream Antenna,140
+CCU,Catherine Creek at Union,CCUA0,01,Upstream Array,100
+CCU,Catherine Creek at Union,CCUA0,02,Upstream Array,100
+CCU,Catherine Creek at Union,CCUB0,03,Downstream Array,100
+CCU,Catherine Creek at Union,CCUB0,04,Downstream Array,100
+CCW,Catherine Creek Ladder/Weir,CCWA0,C1,Top Ladder Antenna,100
+CCW,Catherine Creek Ladder/Weir,CCWB0,C2,Bottom Ladder Antenna,100
+CCW,Catherine Creek Ladder/Weir,CCWA0,01,Top Ladder Antenna,110
+CCW,Catherine Creek Ladder/Weir,CCWB0,02,Bottom Ladder Antenna,110
+CEY,Cearley Creek Side Channel,CEYA0,01,Upstream Array,100
+CEY,Cearley Creek Side Channel,CEYA0,02,Upstream Array,100
+CEY,Cearley Creek Side Channel,CEYB0,03,Downstream Array,100
+CEY,Cearley Creek Side Channel,CEYB0,04,Downstream Array,100
+CLC,Clear Creek near Kooskia NFH,CLC,01,Clear Creek Array,100
+CLC,Clear Creek near Kooskia NFH,CLC,02,Clear Creek Array,100
+CLC,Clear Creek near Kooskia NFH,CLC,03,Clear Creek Array,100
+CLC,Clear Creek near Kooskia NFH,CLC,04,Clear Creek Array,100
+CLC,Clear Creek near Kooskia NFH,CLC,05,Clear Creek Array,100
+CMP,Camp Creek at rkm 2 - Imnaha,CMPA0,C1,Upstream Array,100
+CMP,Camp Creek at rkm 2 - Imnaha,CMPA0,C2,Upstream Array,100
+CMP,Camp Creek at rkm 2 - Imnaha,CMPB0,C3,Downstream Array,100
+CMP,Camp Creek at rkm 2 - Imnaha,CMPB0,C4,Downstream Array,100
+COC,Cow Creek ISA @ stream mouth,COCA0,A1,UPSTREAM ANTENNA,100
+COC,Cow Creek ISA @ stream mouth,COCB0,A2,DOWNSTREAM ANTENNA,100
+CRA,Crooked River Array,CRAA0,01,Upstream Array,100
+CRA,Crooked River Array,CRAA0,02,Upstream Array,100
+CRA,Crooked River Array,CRAB0,03,Downstream Array,100
+CRA,Crooked River Array,CRAB0,04,Downstream Array,100
+CRC,"Carmen Creek, Salmon R. Basin",CRCA0,01,Upstream Array,100
+CRC,"Carmen Creek, Salmon R. Basin",CRCA0,02,Upstream Array,100
+CRC,"Carmen Creek, Salmon R. Basin",CRCA0,03,Upstream Array,100
+CRC,"Carmen Creek, Salmon R. Basin",CRCA0,04,Middle Array,100
+CRC,"Carmen Creek, Salmon R. Basin",CRCA0,05,Middle Array,100
+CRC,"Carmen Creek, Salmon R. Basin",CRCA0,06,Middle Array,100
+CRC,"Carmen Creek, Salmon R. Basin",CRCB0,07,Downstream Array,100
+CRC,"Carmen Creek, Salmon R. Basin",CRCB0,08,Downstream Array,100
+CRC,"Carmen Creek, Salmon R. Basin",CRCB0,09,Downstream Array,100
+CZY,Crazyman Creek at 0.6 km,CZYA0,A1,Upstream Array,100
+CZY,Crazyman Creek at 0.6 km,CZYA0,A2,Upstream Array,100
+CZY,Crazyman Creek at 0.6 km,CZYB0,A3,Downstream Array,100
+CZY,Crazyman Creek at 0.6 km,CZYB0,A4,Downstream Array,100
+EPR,East Fork Potlatch Array,EPRA0,01,Upstream Antenna,100
+EPR,East Fork Potlatch Array,EPRB0,02,Downstream Antenna,100
+ESS,EFSF Salmon River at Parks Cr.,ESSA0,A1,UPPER IN-STREAM ARRAY,100
+ESS,EFSF Salmon River at Parks Cr.,ESSA0,A2,UPPER IN-STREAM ARRAY,100
+ESS,EFSF Salmon River at Parks Cr.,ESSA0,A3,UPPER IN-STREAM ARRAY,100
+ESS,EFSF Salmon River at Parks Cr.,ESSA0,A4,UPPER IN-STREAM ARRAY,100
+ESS,EFSF Salmon River at Parks Cr.,ESSA0,A5,Upper In-stream Array,100
+ESS,EFSF Salmon River at Parks Cr.,ESSA0,A6,Upper In-stream Array,100
+ESS,EFSF Salmon River at Parks Cr.,ESSB0,B1,LOWER IN-STREAM ARRAY,100
+ESS,EFSF Salmon River at Parks Cr.,ESSB0,B2,LOWER IN-STREAM ARRAY,100
+ESS,EFSF Salmon River at Parks Cr.,ESSB0,B3,LOWER IN-STREAM ARRAY,100
+ESS,EFSF Salmon River at Parks Cr.,ESSB0,B4,LOWER IN-STREAM ARRAY,100
+ESS,EFSF Salmon River at Parks Cr.,ESSB0,B5,Lower In-stream Array,100
+ESS,EFSF Salmon River at Parks Cr.,ESSB0,B6,Lower In-stream Array,100
+EVL,Eagle Valley Ranch - Lower,EVLA0,01,Upstream Array,100
+EVL,Eagle Valley Ranch - Lower,EVLA0,02,Upstream Array,100
+EVL,Eagle Valley Ranch - Lower,EVLA0,03,Upstream Array,100
+EVL,Eagle Valley Ranch - Lower,EVLB0,04,Downstream Array,100
+EVL,Eagle Valley Ranch - Lower,EVLB0,05,Downstream Array,100
+EVL,Eagle Valley Ranch - Lower,EVLB0,06,Downstream Array,100
+EVU,Eagle Valley Ranch - Upper,EVUA0,01,Upstream Array,100
+EVU,Eagle Valley Ranch - Upper,EVUA0,02,Upstream Array,100
+EVU,Eagle Valley Ranch - Upper,EVUA0,03,Upstream Array,100
+EVU,Eagle Valley Ranch - Upper,EVUB0,04,Downstream Array,100
+EVU,Eagle Valley Ranch - Upper,EVUB0,05,Downstream Array,100
+EVU,Eagle Valley Ranch - Upper,EVUB0,06,Downstream Array,100
+GCM,Grouse Creek Mouth,GCMA0,01,Upstream Antenna,100
+GCM,Grouse Creek Mouth,GCMB0,02,Downstream Antenna,100
+GOA,Little Goose Fish Ladder,GOA,01,Counting Window,100
+GOA,Little Goose Fish Ladder,GOA,02,Counting Window,100
+GRA,Lower Granite Dam Adult,GRA,00,EAST,100
+GRA,Lower Granite Dam Adult,GRA,02,EAST,100
+GRA,Lower Granite Dam Adult,GRA,04,WEST,100
+GRA,Lower Granite Dam Adult,GRA,06,WEST,100
+GRA,Lower Granite Dam Adult,GRA,08,EAST,100
+GRA,Lower Granite Dam Adult,GRA,0A,EAST,100
+GRA,Lower Granite Dam Adult,GRA,0C,WEST,100
+GRA,Lower Granite Dam Adult,GRA,0E,WEST,100
+GRA,Lower Granite Dam Adult,GRA,6C,,100
+GRA,Lower Granite Dam Adult,GRA,70,,100
+GRA,Lower Granite Dam Adult,GRA,72,,100
+GRA,Lower Granite Dam Adult,GRA,78,,100
+GRA,Lower Granite Dam Adult,GRA,7A,,100
+GRA,Lower Granite Dam Adult,GRA,7C,,100
+GRA,Lower Granite Dam Adult,GRA,7E,,100
+GRA,Lower Granite Dam Adult,GRA,00,EAST,110
+GRA,Lower Granite Dam Adult,GRA,01,,110
+GRA,Lower Granite Dam Adult,GRA,02,EAST,110
+GRA,Lower Granite Dam Adult,GRA,04,EAST,110
+GRA,Lower Granite Dam Adult,GRA,06,EAST,110
+GRA,Lower Granite Dam Adult,GRA,08,EAST,110
+GRA,Lower Granite Dam Adult,GRA,10,WEST,110
+GRA,Lower Granite Dam Adult,GRA,12,WEST,110
+GRA,Lower Granite Dam Adult,GRA,14,WEST,110
+GRA,Lower Granite Dam Adult,GRA,16,WEST,110
+GRA,Lower Granite Dam Adult,GRA,18,WEST,110
+GRA,Lower Granite Dam Adult,GRA,00,400 KHZ EAST,120
+GRA,Lower Granite Dam Adult,GRA,02,400 KHZ EAST,120
+GRA,Lower Granite Dam Adult,GRA,04,400 KHZ EAST,120
+GRA,Lower Granite Dam Adult,GRA,10,400 KHZ WEST,120
+GRA,Lower Granite Dam Adult,GRA,12,400 KHZ WEST,120
+GRA,Lower Granite Dam Adult,GRA,14,400 KHZ WEST,120
+GRA,Lower Granite Dam Adult,GRA,A4,ISO EAST,120
+GRA,Lower Granite Dam Adult,GRA,A5,ISO EAST,120
+GRA,Lower Granite Dam Adult,GRA,B4,ISO WEST,120
+GRA,Lower Granite Dam Adult,GRA,B5,ISO WEST,120
+GRA,Lower Granite Dam Adult,GRA,01,WEIR 733,130
+GRA,Lower Granite Dam Adult,GRA,02,WEIR 733,130
+GRA,Lower Granite Dam Adult,GRA,03,WEIR 732,130
+GRA,Lower Granite Dam Adult,GRA,04,WEIR 732,130
+GRA,Lower Granite Dam Adult,GRA,05,WEIR 731,130
+GRA,Lower Granite Dam Adult,GRA,06,WEIR 731,130
+GRA,Lower Granite Dam Adult,GRA,07,WEIR 730,130
+GRA,Lower Granite Dam Adult,GRA,08,WEIR 730,130
+GRA,Lower Granite Dam Adult,GRA,10,ISO WEST,130
+GRA,Lower Granite Dam Adult,GRA,12,ISO WEST,130
+GRA,Lower Granite Dam Adult,GRA,14,400 KHZ WEST,130
+GRA,Lower Granite Dam Adult,GRA,16,400 KHZ WEST,130
+GRA,Lower Granite Dam Adult,GRA,18,400 KHZ WEST,130
+GRA,Lower Granite Dam Adult,GRA,20,ISO EAST,130
+GRA,Lower Granite Dam Adult,GRA,22,ISO EAST,130
+GRA,Lower Granite Dam Adult,GRA,24,400 KHZ EAST,130
+GRA,Lower Granite Dam Adult,GRA,26,400 KHZ EAST,130
+GRA,Lower Granite Dam Adult,GRA,28,400 KHZ EAST,130
+GRA,Lower Granite Dam Adult,GRA,01,WEIR 733,140
+GRA,Lower Granite Dam Adult,GRA,02,WEIR 733,140
+GRA,Lower Granite Dam Adult,GRA,03,WEIR 732,140
+GRA,Lower Granite Dam Adult,GRA,04,WEIR 732,140
+GRA,Lower Granite Dam Adult,GRA,05,WEIR 731,140
+GRA,Lower Granite Dam Adult,GRA,06,WEIR 731,140
+GRA,Lower Granite Dam Adult,GRA,07,WEIR 730,140
+GRA,Lower Granite Dam Adult,GRA,08,WEIR 730,140
+GRA,Lower Granite Dam Adult,GRA,12,ISO WEST,140
+GRA,Lower Granite Dam Adult,GRA,14,ISO WEST,140
+GRA,Lower Granite Dam Adult,GRA,16,ISO WEST,140
+GRA,Lower Granite Dam Adult,GRA,18,ISO WEST,140
+GRA,Lower Granite Dam Adult,GRA,22,ISO EAST,140
+GRA,Lower Granite Dam Adult,GRA,24,ISO EAST,140
+GRA,Lower Granite Dam Adult,GRA,26,ISO EAST,140
+GRA,Lower Granite Dam Adult,GRA,28,ISO EAST,140
+GRA,Lower Granite Dam Adult,GRA,01,WEIR 733,150
+GRA,Lower Granite Dam Adult,GRA,02,WEIR 733,150
+GRA,Lower Granite Dam Adult,GRA,03,WEIR 732,150
+GRA,Lower Granite Dam Adult,GRA,04,WEIR 732,150
+GRA,Lower Granite Dam Adult,GRA,05,WEIR 731,150
+GRA,Lower Granite Dam Adult,GRA,06,WEIR 731,150
+GRA,Lower Granite Dam Adult,GRA,07,WEIR 730,150
+GRA,Lower Granite Dam Adult,GRA,08,WEIR 730,150
+GRA,Lower Granite Dam Adult,GRA,12,ISO WEST,150
+GRA,Lower Granite Dam Adult,GRA,14,ISO WEST,150
+GRA,Lower Granite Dam Adult,GRA,16,ISO WEST,150
+GRA,Lower Granite Dam Adult,GRA,18,ISO WEST,150
+GRA,Lower Granite Dam Adult,GRA,22,ISO EAST,150
+GRA,Lower Granite Dam Adult,GRA,24,ISO EAST,150
+GRA,Lower Granite Dam Adult,GRA,26,ISO EAST,150
+GRA,Lower Granite Dam Adult,GRA,28,ISO EAST,150
+GRA,Lower Granite Dam Adult,GRA,A1,Ladder Exit,150
+GRA,Lower Granite Dam Adult,GRA,A2,Ladder Exit,150
+GRA,Lower Granite Dam Adult,GRA,B1,Ladder Entrance,150
+GRA,Lower Granite Dam Adult,GRA,B2,Ladder Entrance,150
+GRA,Lower Granite Dam Adult,GRA,B3,Ladder Entrance,150
+GRA,Lower Granite Dam Adult,GRA,B4,Ladder Entrance,150
+HEC,Hawley Cr/18 Mile Cr Array,HECA0,01,Hawley Upstream Array,100
+HEC,Hawley Cr/18 Mile Cr Array,HECA0,02,Hawley Middle Array,100
+HEC,Hawley Cr/18 Mile Cr Array,HECB0,03,Hawley Downstream Array,100
+HEC,Hawley Cr/18 Mile Cr Array,HECA0,04,18 Mile Upstream Array,100
+HEC,Hawley Cr/18 Mile Cr Array,HECA0,05,18 Mile Middle Array,100
+HEC,Hawley Cr/18 Mile Cr Array,HECB0,06,18 Mile Downstream Array,100
+HLM,Potlatch River near Helmer,HLMA0,A1,UPPER LEFT 20-FT ANTENNA,100
+HLM,Potlatch River near Helmer,HLMA0,A2,UPPER RIGHT 10-FT ANTENNA,100
+HLM,Potlatch River near Helmer,HLMB0,A3,LOWER LEFT 20-FT ANTENNA,100
+HLM,Potlatch River near Helmer,HLMB0,A4,LOWER RIGHT 20-FT ANTENNA,100
+HLM,Potlatch River near Helmer,HLMA0,A1,Upstream Array,110
+HLM,Potlatch River near Helmer,HLMA0,A2,Upstream Array,110
+HLM,Potlatch River near Helmer,HLMA0,A3,Upstream Array,110
+HLM,Potlatch River near Helmer,HLMB0,A4,Downstream Array,110
+HLM,Potlatch River near Helmer,HLMB0,A5,Downstream Array,110
+HLM,Potlatch River near Helmer,HLMB0,A6,Downstream Array,110
+HYC,Hayden Creek In-stream Array,HYCB0,A1,IN-STREAM ARRAY,100
+HYC,Hayden Creek In-stream Array,HYCB0,A2,IN-STREAM ARRAY,100
+HYC,Hayden Creek In-stream Array,HYCA0,A1,UPSTREAM ARRAY,110
+HYC,Hayden Creek In-stream Array,HYCA0,A2,UPSTREAM ARRAY,110
+HYC,Hayden Creek In-stream Array,HYCA0,A3,UPSTREAM ARRAY,110
+HYC,Hayden Creek In-stream Array,HYCB0,A4,DOWNSTREAM ARRAY,110
+HYC,Hayden Creek In-stream Array,HYCB0,A5,DOWNSTREAM ARRAY,110
+HYC,Hayden Creek In-stream Array,HYCA0,A1,UPSTREAM ARRAY,120
+HYC,Hayden Creek In-stream Array,HYCA0,A3,UPSTREAM ARRAY,120
+HYC,Hayden Creek In-stream Array,HYCA0,A4,UPSTREAM ARRAY,120
+HYC,Hayden Creek In-stream Array,HYCB0,A5,DOWNSTREAM ARRAY,120
+HYC,Hayden Creek In-stream Array,HYCB0,A6,DOWNSTREAM ARRAY,120
+HYC,Hayden Creek In-stream Array,HYCA0,01,Upstream Array,130
+HYC,Hayden Creek In-stream Array,HYCA0,02,Upstream Array,130
+HYC,Hayden Creek In-stream Array,HYCB0,03,Downstream Array,130
+HYC,Hayden Creek In-stream Array,HYCB0,04,Downstream Array,130
+IHA,Ice Harbor Adult,IHA,01,LEFT LADDER WEIR 438 [O/S],100
+IHA,Ice Harbor Adult,IHA,02,LEFT LADDER WEIR 438 [O/S],100
+IHA,Ice Harbor Adult,IHA,03,LEFT LADDER WEIR 437 [O/S],100
+IHA,Ice Harbor Adult,IHA,04,LEFT LADDER WEIR 437 [O/S],100
+IHA,Ice Harbor Adult,IHA,05,LEFT LADDER WEIR 436 [O/S],100
+IHA,Ice Harbor Adult,IHA,06,LEFT LADDER WEIR 436 [O/S],100
+IHA,Ice Harbor Adult,IHA,07,LEFT LADDER WEIR 435 [O/S],100
+IHA,Ice Harbor Adult,IHA,08,LEFT LADDER WEIR 435 [O/S],100
+IHA,Ice Harbor Adult,IHA,09,RIGHT LADDER WEIR 438 [S/O],100
+IHA,Ice Harbor Adult,IHA,0A,RIGHT LADDER WEIR 438 [S/O],100
+IHA,Ice Harbor Adult,IHA,0B,RIGHT LADDER WEIR 437 [S/O],100
+IHA,Ice Harbor Adult,IHA,0C,RIGHT LADDER WEIR 437 [S/O],100
+IHA,Ice Harbor Adult,IHA,0D,RIGHT LADDER WEIR 436 [S/O],100
+IHA,Ice Harbor Adult,IHA,0E,RIGHT LADDER WEIR 436 [S/O],100
+IHA,Ice Harbor Adult,IHA,0F,RIGHT LADDER WEIR 435 [S/O],100
+IHA,Ice Harbor Adult,IHA,10,RIGHT LADDER WEIR 435 [S/O],100
+IML,Imnaha River Weir Adult Ladder,IMLA0,11,Top Ladder Antenna,100
+IML,Imnaha River Weir Adult Ladder,IMLB0,12,Bottom Ladder Antenna,100
+IML,Imnaha River Weir Adult Ladder,IMLA0,F1,Top Ladder Antenna,110
+IML,Imnaha River Weir Adult Ladder,IMLB0,F2,Bottom Ladder Antenna,110
+IML,Imnaha River Weir Adult Ladder,IMLA0,07,Upper Ladder Antenna,120
+IML,Imnaha River Weir Adult Ladder,IMLB0,08,Lower Ladder Antenna,120
+IML,Imnaha River Weir Adult Ladder,IMLA0,07,Upper Ladder Antenna,130
+IML,Imnaha River Weir Adult Ladder,IMLB0,08,Lower Ladder Antenna,130
+IML,Imnaha River Weir Adult Ladder,IMLB0,09,Work Room Antenna,130
+IR1,Lower Imnaha River ISA @ km 7,IR1,B1,STREAM BANK LEFT,100
+IR1,Lower Imnaha River ISA @ km 7,IR1,B2,STREAM CENTER LEFT,100
+IR1,Lower Imnaha River ISA @ km 7,IR1,B3,STREAM CENTER RIGHT,100
+IR1,Lower Imnaha River ISA @ km 7,IR1,B4,STREAM BANK RIGHT,100
+IR2,Lower Imnaha River ISA @ km 10,IR2,A1,STREAM BANK LEFT,100
+IR2,Lower Imnaha River ISA @ km 10,IR2,A2,STREAM CENTER LEFT,100
+IR2,Lower Imnaha River ISA @ km 10,IR2,A3,STREAM CENTER,100
+IR2,Lower Imnaha River ISA @ km 10,IR2,A4,STREAM CENTER RIGHT,100
+IR2,Lower Imnaha River ISA @ km 10,IR2,A5,STREAM BANK RIGHT,100
+IR3,Upper Imnaha River ISA @ km 41,IR3A0,C1,UPSTREAM ARRAY,100
+IR3,Upper Imnaha River ISA @ km 41,IR3A0,C2,UPSTREAM ARRAY,100
+IR3,Upper Imnaha River ISA @ km 41,IR3A0,C3,UPSTREAM ARRAY,100
+IR3,Upper Imnaha River ISA @ km 41,IR3B0,C4,DOWNSTREAM ARRAY,100
+IR3,Upper Imnaha River ISA @ km 41,IR3B0,C5,DOWNSTREAM ARRAY,100
+IR3,Upper Imnaha River ISA @ km 41,IR3B0,C6,DOWNSTREAM ARRAY,100
+IR4,Imnaha Weir Downstream Array,IR4A0,01,Upstream Array,100
+IR4,Imnaha Weir Downstream Array,IR4A0,02,Upstream Array,100
+IR4,Imnaha Weir Downstream Array,IR4A0,03,Upstream Array,100
+IR4,Imnaha Weir Downstream Array,IR4B0,04,Downstream Array,100
+IR4,Imnaha Weir Downstream Array,IR4B0,05,Downstream Array,100
+IR4,Imnaha Weir Downstream Array,IR4B0,06,Downstream Array,100
+IR5,Imnaha Weir Upstream Array,IR5A0,01,Upstream Array,100
+IR5,Imnaha Weir Upstream Array,IR5A0,02,Upstream Array,100
+IR5,Imnaha Weir Upstream Array,IR5A0,03,Upstream Array,100
+IR5,Imnaha Weir Upstream Array,IR5A0,04,Upstream Array,100
+IR5,Imnaha Weir Upstream Array,IR5B0,05,Downstream Array,100
+IR5,Imnaha Weir Upstream Array,IR5B0,06,Downstream Array,100
+IR5,Imnaha Weir Upstream Array,IR5B0,07,Downstream Array,100
+IR5,Imnaha Weir Upstream Array,IR5B0,08,Downstream Array,100
+JA1,Jacks Creek Seasonal IPTDS,JA1A0,01,Upstream Array,100
+JA1,Jacks Creek Seasonal IPTDS,JA1B0,02,Downstream Array,100
+JOC,Joseph Creek ISA @ km 3,JOCA0,A1,UPSTREAM LEFT,100
+JOC,Joseph Creek ISA @ km 3,JOCA0,A2,UPSTREAM CENTER,100
+JOC,Joseph Creek ISA @ km 3,JOCA0,A3,UPSTREAM RIGHT,100
+JOC,Joseph Creek ISA @ km 3,JOCB0,A4,DOWNSTREAM LEFT,100
+JOC,Joseph Creek ISA @ km 3,JOCB0,A5,DOWNSTREAM RIGHT,100
+JOC,Joseph Creek ISA @ km 3,JOCA0,A1,Upstream Array,110
+JOC,Joseph Creek ISA @ km 3,JOCA0,A2,Upstream Array,110
+JOC,Joseph Creek ISA @ km 3,JOCA0,A3,Upstream Array,110
+JOC,Joseph Creek ISA @ km 3,JOCB0,A4,Downstream Array,110
+JOC,Joseph Creek ISA @ km 3,JOCB0,A5,Downstream Array,110
+JOC,Joseph Creek ISA @ km 3,JOCB0,A6,Downstream Array,110
+JOC,Joseph Creek ISA @ km 3,JOCA0,01,Upstream Array,120
+JOC,Joseph Creek ISA @ km 3,JOCA0,02,Upstream Array,120
+JOC,Joseph Creek ISA @ km 3,JOCB0,03,Downstream Array,120
+JOC,Joseph Creek ISA @ km 3,JOCB0,04,Downstream Array,120
+JUL,Potlatch River near Juliaetta,JUL,A1,IN-STREAM ARRAY,100
+JUL,Potlatch River near Juliaetta,JUL,A2,IN-STREAM ARRAY,100
+JUL,Potlatch River near Juliaetta,JUL,A3,IN-STREAM ARRAY,100
+JUL,Potlatch River near Juliaetta,JUL,A4,IN-STREAM ARRAY,100
+JUL,Potlatch River near Juliaetta,JUL,A5,IN-STREAM ARRAY,100
+JUL,Potlatch River near Juliaetta,JUL,A6,IN-STREAM ARRAY,100
+JUL,Potlatch River near Juliaetta,JUL,A1,IN-STREAM ARRAY,110
+JUL,Potlatch River near Juliaetta,JUL,A2,IN-STREAM ARRAY,110
+JUL,Potlatch River near Juliaetta,JUL,A3,IN-STREAM ARRAY,110
+JUL,Potlatch River near Juliaetta,JUL,A4,IN-STREAM ARRAY,110
+JUL,Potlatch River near Juliaetta,JUL,01,Floating Array,120
+JUL,Potlatch River near Juliaetta,JUL,02,Floating Array,120
+JUL,Potlatch River near Juliaetta,JUL,03,Floating Array,120
+JUL,Potlatch River near Juliaetta,JUL,04,Floating Array,120
+JUL,Potlatch River near Juliaetta,JUL,05,Floating Array,120
+JUL,Potlatch River near Juliaetta,JUL,06,Floating Array,120
+JUL,Potlatch River near Juliaetta,JUL,07,Floating Array,120
+JUL,Potlatch River near Juliaetta,JUL,08,Floating Array,120
+KEN,Kenney Creek In-stream Arrays,KENA0,A1,UPSTREAM ANTENNA,100
+KEN,Kenney Creek In-stream Arrays,KENB0,A5,DOWNSTREAM ANTENNA,100
+KEN,Kenney Creek In-stream Arrays,KENB0,A1,Floating Antenna,110
+KEN,Kenney Creek In-stream Arrays,KENA0,01,Upstream Antenna,120
+KEN,Kenney Creek In-stream Arrays,KENB0,02,Downstream Antenna,120
+KHS,Big Bear Cr. @ Kendrick HS,KHSA0,A1,Upstream Pass-Over Array,100
+KHS,Big Bear Cr. @ Kendrick HS,KHSA0,A2,UPSTREAM PASS-OVER ARRAY,100
+KHS,Big Bear Cr. @ Kendrick HS,KHSA0,A3,UPSTREAM PASS-OVER ARRAY,100
+KHS,Big Bear Cr. @ Kendrick HS,KHSA0,A4,UPSTREAM PASS-OVER ARRAY,100
+KHS,Big Bear Cr. @ Kendrick HS,KHSB0,A5,DOWNSTREAM PASS-OVER ARRAY,100
+KHS,Big Bear Cr. @ Kendrick HS,KHSB0,A6,DOWNSTREAM PASS-OVER ARRAY,100
+KHS,Big Bear Cr. @ Kendrick HS,KHSA0,A1,UPPER IN-STREAM ARRAY,110
+KHS,Big Bear Cr. @ Kendrick HS,KHSA0,A2,UPPER IN-STREAM ARRAY,110
+KHS,Big Bear Cr. @ Kendrick HS,KHSA0,A3,UPPER IN-STREAM ARRAY,110
+KHS,Big Bear Cr. @ Kendrick HS,KHSB0,A4,LOWER IN-STREAM ARRAY,110
+KHS,Big Bear Cr. @ Kendrick HS,KHSB0,A5,LOWER IN-STREAM ARRAY,110
+KHS,Big Bear Cr. @ Kendrick HS,KHSB0,A6,LOWER IN-STREAM ARRAY,110
+KHS,Big Bear Cr. @ Kendrick HS,KHSA0,A1,UPPER IN-STREAM ARRAY,120
+KHS,Big Bear Cr. @ Kendrick HS,KHSA0,A2,UPPER IN-STREAM ARRAY,120
+KHS,Big Bear Cr. @ Kendrick HS,KHSB0,A3,LOWER IN-STREAM ARRAY,120
+KHS,Big Bear Cr. @ Kendrick HS,KHSB0,A4,LOWER IN-STREAM ARRAY,120
+KHS,Big Bear Cr. @ Kendrick HS,KHSB0,A5,LOWER IN-STREAM ARRAY,120
+KHS,Big Bear Cr. @ Kendrick HS,KHSB0,A6,LOWER IN-STREAM ARRAY,120
+KHS,Big Bear Cr. @ Kendrick HS,KHSA0,A1,UPPER IN-STREAM ARRAY,130
+KHS,Big Bear Cr. @ Kendrick HS,KHSA0,A2,Upper In-stream Array,130
+KHS,Big Bear Cr. @ Kendrick HS,KHSA0,A3,UPPER IN-STREAM ARRAY,130
+KHS,Big Bear Cr. @ Kendrick HS,KHSA0,A4,Upper In-stream Array,130
+KHS,Big Bear Cr. @ Kendrick HS,KHSB0,A5,LOWER IN-STREAM ARRAY,130
+KHS,Big Bear Cr. @ Kendrick HS,KHSB0,A6,LOWER IN-STREAM ARRAY,130
+KHS,Big Bear Cr. @ Kendrick HS,KHSA0,01,Upstream Array,140
+KHS,Big Bear Cr. @ Kendrick HS,KHSA0,02,Upstream Array,140
+KHS,Big Bear Cr. @ Kendrick HS,KHSA0,03,Upstream Array,140
+KHS,Big Bear Cr. @ Kendrick HS,KHSA0,04,Upstream Array,140
+KHS,Big Bear Cr. @ Kendrick HS,KHSB0,05,Downstream Array,140
+KHS,Big Bear Cr. @ Kendrick HS,KHSB0,06,Downstream Array,140
+KHS,Big Bear Cr. @ Kendrick HS,KHSB0,07,Downstream Array,140
+KHS,Big Bear Cr. @ Kendrick HS,KHSB0,08,Downstream Array,140
+KRS,SF Salmon River at Krassel Cr.,KRSB0,01,IN-RIVER PASS-OVER MUX ARRAY,100
+KRS,SF Salmon River at Krassel Cr.,KRSB0,02,IN-RIVER PASS-OVER MUX ARRAY,100
+KRS,SF Salmon River at Krassel Cr.,KRSB0,03,IN-RIVER PASS-OVER MUX ARRAY,100
+KRS,SF Salmon River at Krassel Cr.,KRSB0,04,IN-RIVER PASS-OVER MUX ARRAY,100
+KRS,SF Salmon River at Krassel Cr.,KRSB0,05,IN-RIVER PASS-OVER MUX ARRAY,100
+KRS,SF Salmon River at Krassel Cr.,KRSB0,A1,IN-RIVER PASS-OVER MUX ARRAY,110
+KRS,SF Salmon River at Krassel Cr.,KRSB0,A2,IN-RIVER PASS-OVER MUX ARRAY,110
+KRS,SF Salmon River at Krassel Cr.,KRSB0,A3,IN-RIVER PASS-OVER MUX ARRAY,110
+KRS,SF Salmon River at Krassel Cr.,KRSB0,A4,IN-RIVER PASS-OVER MUX ARRAY,110
+KRS,SF Salmon River at Krassel Cr.,KRSB0,A5,IN-RIVER PASS-OVER MUX ARRAY,110
+KRS,SF Salmon River at Krassel Cr.,KRSA0,A1,Upstream Array,120
+KRS,SF Salmon River at Krassel Cr.,KRSA0,A2,Upstream Array,120
+KRS,SF Salmon River at Krassel Cr.,KRSA0,A3,Upstream Array,120
+KRS,SF Salmon River at Krassel Cr.,KRSA0,A4,Upstream Array,120
+KRS,SF Salmon River at Krassel Cr.,KRSA0,A5,Upstream Array,120
+KRS,SF Salmon River at Krassel Cr.,KRSB0,A6,Downstream Array,120
+KRS,SF Salmon River at Krassel Cr.,KRSB0,A7,Downstream Array,120
+KRS,SF Salmon River at Krassel Cr.,KRSB0,A8,Downstream Array,120
+KRS,SF Salmon River at Krassel Cr.,KRSB0,A9,Downstream Array,120
+KRS,SF Salmon River at Krassel Cr.,KRSB0,AA,Downstream Array,120
+LAP,"Lapwai Creek, near its mouth",LAPA0,A1,UPPER IN-STREAM ARRAY,100
+LAP,"Lapwai Creek, near its mouth",LAPB0,A2,Lower In-stream Array,100
+LAP,"Lapwai Creek, near its mouth",LAPA0,A1,UPPER LEFT INSTREAM ARRAY,110
+LAP,"Lapwai Creek, near its mouth",LAPA0,A2,UPPER RIGHT INSTREAM ARRAY,110
+LAP,"Lapwai Creek, near its mouth",LAPB0,A3,LOWER INSTREAM ARRAY,110
+LAP,"Lapwai Creek, near its mouth",LAPA0,A1,UPPER INSTREAM ARRAY,120
+LAP,"Lapwai Creek, near its mouth",LAPA0,A2,UPPER INSTREAM ARRAY,120
+LAP,"Lapwai Creek, near its mouth",LAPA0,A3,MIDDLE INSTREAM ARRAY,120
+LAP,"Lapwai Creek, near its mouth",LAPA0,A4,MIDDLE INSTREAM ARRAY,120
+LAP,"Lapwai Creek, near its mouth",LAPB0,A5,LOWER INSTREAM ARRAY,120
+LAP,"Lapwai Creek, near its mouth",LAPB0,A6,LOWER INSTREAM ARRAY,120
+LAP,"Lapwai Creek, near its mouth",LAPB0,01,Array,130
+LAP,"Lapwai Creek, near its mouth",LAPB0,02,Array,130
+LAP,"Lapwai Creek, near its mouth",LAPA0,01,Upstream Array,140
+LAP,"Lapwai Creek, near its mouth",LAPA0,02,Upstream Array,140
+LAP,"Lapwai Creek, near its mouth",LAPB0,03,Downstream Array,140
+LAP,"Lapwai Creek, near its mouth",LAPB0,04,Downstream Array,140
+LAW,Lawyer Creek Seasonal IPTDS,LAWA0,01,Upstream Array,100
+LAW,Lawyer Creek Seasonal IPTDS,LAWA0,02,Upstream Array,100
+LAW,Lawyer Creek Seasonal IPTDS,LAWB0,03,Downstream Array,100
+LAW,Lawyer Creek Seasonal IPTDS,LAWB0,04,Downstream Array,100
+LB8,Big Eightmile Creek,LB8A0,A1,Upstream Array,100
+LB8,Big Eightmile Creek,LB8B0,A2,Downstream Array,100
+LBS,Big Springs Creek,LBSA0,01,Upstream Array,100
+LBS,Big Springs Creek,LBSA0,02,Upstream Array,100
+LBS,Big Springs Creek,LBSA0,03,Middle Array,100
+LBS,Big Springs Creek,LBSA0,04,Middle Array,100
+LBS,Big Springs Creek,LBSB0,05,Downstream Array,100
+LBS,Big Springs Creek,LBSB0,06,Downstream Array,100
+LBS,Big Springs Creek,LBSA0,01,Upstream Antenna,110
+LBS,Big Springs Creek,LBSB0,02,Downstream Antenna,110
+LBS,Big Springs Creek,LBSA0,01,Upstream Antenna,120
+LBS,Big Springs Creek,LBSB0,02,Downstream Antenna,120
+LC1,Lower Lolo Creek at rkm 21,LC1,B1,SINGLE ARRAY,100
+LC1,Lower Lolo Creek at rkm 21,LC1,B2,SINGLE ARRAY,100
+LC1,Lower Lolo Creek at rkm 21,LC1,B3,SINGLE ARRAY,100
+LC1,Lower Lolo Creek at rkm 21,LC1,B4,SINGLE ARRAY,100
+LC2,Upper Lolo Creek at rkm 25,LC2,A1,SINGLE ARRAY,100
+LC2,Upper Lolo Creek at rkm 25,LC2,A2,SINGLE ARRAY,100
+LC2,Upper Lolo Creek at rkm 25,LC2,A3,SINGLE ARRAY,100
+LC2,Upper Lolo Creek at rkm 25,LC2,A4,SINGLE ARRAY,100
+LCL,"Lee Creek, Lemhi R. Basin",LCLA0,01,Upstream Array,100
+LCL,"Lee Creek, Lemhi R. Basin",LCLA0,02,Middle Array,100
+LCL,"Lee Creek, Lemhi R. Basin",LCLB0,03,Downstream Array,100
+LCL,"Lee Creek, Lemhi R. Basin",LCLA0,01,Upstream Antenna,110
+LCL,"Lee Creek, Lemhi R. Basin",LCLB0,02,Downstream Antenna,110
+LGW,Lookingglass Creek Weir,LGWA0,01,Top Ladder Antenna,100
+LGW,Lookingglass Creek Weir,LGWB0,02,Bottom Ladder Antenna,100
+LLR,Lower Lemhi River,LLRB0,A1,IN-STREAM ARRAY,100
+LLR,Lower Lemhi River,LLRB0,A2,IN-STREAM ARRAY,100
+LLR,Lower Lemhi River,LLRB0,A3,IN-STREAM ARRAY,100
+LLR,Lower Lemhi River,LLRA0,A1,UPSTREAM ARRAY,110
+LLR,Lower Lemhi River,LLRA0,A2,UPSTREAM ARRAY,110
+LLR,Lower Lemhi River,LLRA0,A3,UPSTREAM ARRAY,110
+LLR,Lower Lemhi River,LLRB0,A4,DOWNSTREAM ARRAY,110
+LLR,Lower Lemhi River,LLRB0,A5,DOWNSTREAM ARRAY,110
+LLR,Lower Lemhi River,LLRB0,A6,DOWNSTREAM ARRAY,110
+LLR,Lower Lemhi River,LLRA0,01,UPSTREAM ARRAY,120
+LLR,Lower Lemhi River,LLRA0,02,UPSTREAM ARRAY,120
+LLR,Lower Lemhi River,LLRA0,03,UPSTREAM ARRAY,120
+LLR,Lower Lemhi River,LLRB0,04,DOWNSTREAM ARRAY,120
+LLR,Lower Lemhi River,LLRB0,05,DOWNSTREAM ARRAY,120
+LLR,Lower Lemhi River,LLRB0,06,DOWNSTREAM ARRAY,120
+LLS,Lemhi Little Springs Instream,LLSA0,A1,UPSTREAM ANTENNA,100
+LLS,Lemhi Little Springs Instream,LLSB0,A2,DOWNSTREAM ANTENNA,100
+LLS,Lemhi Little Springs Instream,LLSA0,01,UPSTREAM ANTENNA,110
+LLS,Lemhi Little Springs Instream,LLSB0,02,DOWNSTREAM ANTENNA,110
+LMA,Lower Monumental Adult Ladders,LMA,01,Left Ladder,100
+LMA,Lower Monumental Adult Ladders,LMA,02,Left Ladder,100
+LMA,Lower Monumental Adult Ladders,LMA,03,Right Ladder,100
+LMA,Lower Monumental Adult Ladders,LMA,04,Right Ladder,100
+LRL,Lower Lochsa River Array Site,LRL,A1,Instream Array,100
+LRL,Lower Lochsa River Array Site,LRL,A2,Instream Array,100
+LRL,Lower Lochsa River Array Site,LRL,B1,Instream Array,100
+LRL,Lower Lochsa River Array Site,LRL,B2,Instream Array,100
+LRL,Lower Lochsa River Array Site,LRL,B3,Instream Array,100
+LRL,Lower Lochsa River Array Site,LRL,B4,Instream Array,100
+LRL,Lower Lochsa River Array Site,LRL,B5,Instream Array,100
+LRL,Lower Lochsa River Array Site,LRL,B6,Instream Array,100
+LRL,Lower Lochsa River Array Site,LRL,B7,Instream Array,100
+LRL,Lower Lochsa River Array Site,LRL,B8,Instream Array,100
+LRL,Lower Lochsa River Array Site,LRL,B9,Instream Array,100
+LRL,Lower Lochsa River Array Site,LRL,BA,Instream Array,100
+LRL,Lower Lochsa River Array Site,LRL,BB,Instream Array,100
+LRU,Lochsa River Upper Site,LRU,A1,Instream Array,100
+LRU,Lochsa River Upper Site,LRU,A2,Instream Array,100
+LRU,Lochsa River Upper Site,LRU,A3,Instream Array,100
+LRU,Lochsa River Upper Site,LRU,A4,Instream Array,100
+LRU,Lochsa River Upper Site,LRU,A5,Instream Array,100
+LRU,Lochsa River Upper Site,LRU,A6,Instream Array,100
+LRU,Lochsa River Upper Site,LRU,A7,Instream Array,100
+LRU,Lochsa River Upper Site,LRU,A8,Instream Array,100
+LRU,Lochsa River Upper Site,LRU,A9,Instream Array,100
+LRU,Lochsa River Upper Site,LRU,B1,Instream Array,100
+LRU,Lochsa River Upper Site,LRU,B2,Instream Array,100
+LRU,Lochsa River Upper Site,LRU,B3,Instream Array,100
+LRU,Lochsa River Upper Site,LRU,B4,Instream Array,100
+LRU,Lochsa River Upper Site,LRU,B5,Instream Array,100
+LRU,Lochsa River Upper Site,LRU,B6,Instream Array,100
+LRU,Lochsa River Upper Site,LRU,B7,Instream Array,100
+LRU,Lochsa River Upper Site,LRU,B8,Instream Array,100
+LRU,Lochsa River Upper Site,LRU,B9,Instream Array,100
+LRW,Lemhi River Weir,LRWB0,A1,IN-STREAM ARRAY,100
+LRW,Lemhi River Weir,LRWB0,A2,IN-STREAM ARRAY,100
+LRW,Lemhi River Weir,LRWA0,A1,UPSTREAM ARRAY,110
+LRW,Lemhi River Weir,LRWA0,A2,UPSTREAM ARRAY,110
+LRW,Lemhi River Weir,LRWA0,A3,UPSTREAM ARRAY,110
+LRW,Lemhi River Weir,LRWA0,A4,UPSTREAM ARRAY,110
+LRW,Lemhi River Weir,LRWB0,A5,DOWNSTREAM ARRAY,110
+LRW,Lemhi River Weir,LRWB0,A6,DOWNSTREAM ARRAY,110
+LSC,Little Sheep Cr Seasonal IPTDS,LSCA0,D1,Upstream Array,100
+LSC,Little Sheep Cr Seasonal IPTDS,LSCA0,D2,Upstream Array,100
+LSC,Little Sheep Cr Seasonal IPTDS,LSCB0,D3,Downstream Array,100
+LSC,Little Sheep Cr Seasonal IPTDS,LSCB0,D4,Downstream Array,100
+LTR,Lower Tucannon River,LTRB0,A1,CRUMP WEIR ARRAY,100
+LTR,Lower Tucannon River,LTRB0,A2,CRUMP WEIR ARRAY,100
+LTR,Lower Tucannon River,LTRB0,A3,CRUMP WEIR ARRAY,100
+LTR,Lower Tucannon River,LTRB0,A4,CRUMP WEIR ARRAY,100
+LTR,Lower Tucannon River,LTRB0,A5,CRUMP WEIR ARRAY,100
+LTR,Lower Tucannon River,LTRB0,A6,CRUMP WEIR ARRAY,100
+LTR,Lower Tucannon River,LTRA0,B1,UPSTREAM FLAT PLATE ARRAY,100
+LTR,Lower Tucannon River,LTRA0,B2,UPSTREAM FLAT PLATE ARRAY,100
+LTR,Lower Tucannon River,LTRA0,B3,UPSTREAM FLAT PLATE ARRAY,100
+LTR,Lower Tucannon River,LTRA0,B4,UPSTREAM FLAT PLATE ARRAY,100
+LTR,Lower Tucannon River,LTRA0,B5,UPSTREAM FLAT PLATE ARRAY,100
+LTR,Lower Tucannon River,LTRA0,B6,UPSTREAM FLAT PLATE ARRAY,100
+LTR,Lower Tucannon River,LTRB0,C1,DOWNSTREAM FLAT PLATE ARRAY,100
+LTR,Lower Tucannon River,LTRB0,C2,DOWNSTREAM FLAT PLATE ARRAY,100
+LTR,Lower Tucannon River,LTRB0,C3,DOWNSTREAM FLAT PLATE ARRAY,100
+LTR,Lower Tucannon River,LTRB0,C4,DOWNSTREAM FLAT PLATE ARRAY,100
+LTR,Lower Tucannon River,LTRB0,C5,DOWNSTREAM FLAT PLATE ARRAY,100
+LTR,Lower Tucannon River,LTRB0,C6,DOWNSTREAM FLAT PLATE ARRAY,100
+LTR,Lower Tucannon River,LTRB0,A1,RR Bridge Pass-through Array,110
+LTR,Lower Tucannon River,LTRB0,A2,RR Bridge Pass-through Array,110
+LTR,Lower Tucannon River,LTRB0,A3,RR BRIDGE PASS-THROUGH ARRAY,110
+LTR,Lower Tucannon River,LTRB0,A4,RR Bridge Pass-through Array,110
+LTR,Lower Tucannon River,LTRB0,A5,RR BRIDGE PASS-THROUGH ARRAY,110
+LTR,Lower Tucannon River,LTRB0,A6,RR BRIDGE PASS-THROUGH ARRAY,110
+LTR,Lower Tucannon River,LTRA0,B1,Upstream Flat Plate Array,110
+LTR,Lower Tucannon River,LTRA0,B2,Upstream Flat Plate Array,110
+LTR,Lower Tucannon River,LTRA0,B3,Upstream Flat Plate Array,110
+LTR,Lower Tucannon River,LTRA0,B4,Upstream Flat Plate Array,110
+LTR,Lower Tucannon River,LTRA0,B5,Upstream Flat Plate Array,110
+LTR,Lower Tucannon River,LTRA0,B6,Upstream Flat Plate Array,110
+LTR,Lower Tucannon River,LTRB0,C1,DOWNSTREAM FLAT PLATE ARRAY,110
+LTR,Lower Tucannon River,LTRB0,C2,DOWNSTREAM FLAT PLATE ARRAY,110
+LTR,Lower Tucannon River,LTRB0,C3,DOWNSTREAM FLAT PLATE ARRAY,110
+LTR,Lower Tucannon River,LTRB0,C4,DOWNSTREAM FLAT PLATE ARRAY,110
+LTR,Lower Tucannon River,LTRB0,C5,DOWNSTREAM FLAT PLATE ARRAY,110
+LTR,Lower Tucannon River,LTRB0,C6,DOWNSTREAM FLAT PLATE ARRAY,110
+LTR,Lower Tucannon River,LTRA0,C1,UPSTREAM LEFT IN-STREAM ARRAY,120
+LTR,Lower Tucannon River,LTRA0,C2,UPSTREAM LEFT IN-STREAM ARRAY,120
+LTR,Lower Tucannon River,LTRA0,C3,UPSTREAM LEFT IN-STREAM ARRAY,120
+LTR,Lower Tucannon River,LTRB0,C4,DWNSTRM RIGHT IN-STREAM ARRAY,120
+LTR,Lower Tucannon River,LTRB0,C5,DWNSTRM RIGHT IN-STREAM ARRAY,120
+LTR,Lower Tucannon River,LTRB0,C6,DWNSTRM RIGHT IN-STREAM ARRAY,120
+LTR,Lower Tucannon River,LTRA0,C1,UPSTREAM LEFT ANTENNA,130
+LTR,Lower Tucannon River,LTRB0,C2,DOWNSTREAM LEFT ANTENNA,130
+LTR,Lower Tucannon River,LTRA0,C3,UPSTREAM RIGHT ANTENNA,130
+LTR,Lower Tucannon River,LTRB0,C4,DOWNSTREAM RIGHT ANTENNA,130
+LTR,Lower Tucannon River,LTRA0,C5,MIDDLE RIGHT ANTENNA,130
+LTR,Lower Tucannon River,LTRA0,C6,MIDDLE LEFT ANTENNA,130
+LTR,Lower Tucannon River,LTRB0,C1,DOWNSTREAM LEFT ANTENNA,140
+LTR,Lower Tucannon River,LTRA0,C2,UPSTREAM LEFT ANTENNA,140
+LTR,Lower Tucannon River,LTRA0,C3,UPSTREAM RIGHT ANTENNA,140
+LTR,Lower Tucannon River,LTRB0,C4,DOWNSTREAM RIGHT ANTENNA,140
+LTR,Lower Tucannon River,LTRA0,C5,MIDDLE RIGHT ANTENNA,140
+LTR,Lower Tucannon River,LTRA0,C6,MIDDLE LEFT ANTENNA,140
+LTR,Lower Tucannon River,LTRA0,C1,UPSTREAM LEFT ANTENNA,150
+LTR,Lower Tucannon River,LTRA0,C2,UPSTREAM RIGHT ANTENNA,150
+LTR,Lower Tucannon River,LTRA0,C3,MIDDLE LEFT ANTENNA,150
+LTR,Lower Tucannon River,LTRA0,C4,MIDDLE RIGHT ANTENNA,150
+LTR,Lower Tucannon River,LTRB0,C5,DOWNSTREAM LEFT ANTENNA,150
+LTR,Lower Tucannon River,LTRB0,C6,DOWNSTREAM RIGHT ANTENNA,150
+LTR,Lower Tucannon River,LTRA0,01,UPSTREAM LEFT ANTENNA,160
+LTR,Lower Tucannon River,LTRA0,02,UPSTREAM RIGHT ANTENNA,160
+LTR,Lower Tucannon River,LTRA0,03,MIDDLE LEFT ANTENNA,160
+LTR,Lower Tucannon River,LTRA0,04,MIDDLE RIGHT ANTENNA,160
+LTR,Lower Tucannon River,LTRB0,05,DOWNSTREAM LEFT ANTENNA,160
+LTR,Lower Tucannon River,LTRB0,06,DOWNSTREAM RIGHT ANTENNA,160
+LTR,Lower Tucannon River,LTRA0,01,Upstream Array,170
+LTR,Lower Tucannon River,LTRA0,02,Upstream Array,170
+LTR,Lower Tucannon River,LTRA0,03,Middle Array,170
+LTR,Lower Tucannon River,LTRA0,04,Middle Array,170
+LTR,Lower Tucannon River,LTRA0,05,Middle Array,170
+LTR,Lower Tucannon River,LTRB0,06,Downstream Array,170
+LTR,Lower Tucannon River,LTRB0,07,Downstream Array,170
+MAR,Marsh Cr at Lola Cr Campground,MARA0,01,Upstream Array,100
+MAR,Marsh Cr at Lola Cr Campground,MARA0,02,Upstream Array,100
+MAR,Marsh Cr at Lola Cr Campground,MARA0,03,Upstream Array,100
+MAR,Marsh Cr at Lola Cr Campground,MARA0,04,Upstream Array,100
+MAR,Marsh Cr at Lola Cr Campground,MARB0,05,Downstream Array,100
+MAR,Marsh Cr at Lola Cr Campground,MARB0,06,Downstream Array,100
+MAR,Marsh Cr at Lola Cr Campground,MARB0,07,Downstream Array,100
+MAR,Marsh Cr at Lola Cr Campground,MARB0,08,Downstream Array,100
+MIS,Mission Creek,MISA0,C1,UPSTREAM ANTENNA,100
+MIS,Mission Creek,MISB0,C2,DOWNSTREAM ANTENNA,100
+MR1,Minam River at river km 0.5,MR1A0,01,Upstream Array,100
+MR1,Minam River at river km 0.5,MR1A0,02,Upstream Array,100
+MR1,Minam River at river km 0.5,MR1A0,03,Upstream Array,100
+MR1,Minam River at river km 0.5,MR1A0,04,Upstream Array,100
+MR1,Minam River at river km 0.5,MR1A0,05,Upstream Array,100
+MR1,Minam River at river km 0.5,MR1B0,06,Downstream Array,100
+MR1,Minam River at river km 0.5,MR1B0,07,Downstream Array,100
+MR1,Minam River at river km 0.5,MR1B0,08,Downstream Array,100
+MR1,Minam River at river km 0.5,MR1B0,09,Downstream Array,100
+MR1,Minam River at river km 0.5,MR1B0,0A,Downstream Array,100
+MTR,Middle Tucannon River,MTRA0,B1,UPSTREAM ARRAY,100
+MTR,Middle Tucannon River,MTRA0,B2,UPSTREAM ARRAY,100
+MTR,Middle Tucannon River,MTRA0,B3,MIDDLE ARRAY,100
+MTR,Middle Tucannon River,MTRA0,B4,MIDDLE ARRAY,100
+MTR,Middle Tucannon River,MTRB0,B5,DOWNSTREAM ARRAY,100
+MTR,Middle Tucannon River,MTRB0,B6,DOWNSTREAM ARRAY,100
+MTR,Middle Tucannon River,MTRA0,01,UPSTREAM ARRAY,110
+MTR,Middle Tucannon River,MTRA0,02,UPSTREAM ARRAY,110
+MTR,Middle Tucannon River,MTRA0,03,MIDDLE ARRAY,110
+MTR,Middle Tucannon River,MTRA0,04,MIDDLE ARRAY,110
+MTR,Middle Tucannon River,MTRB0,05,DOWNSTREAM ARRAY,110
+MTR,Middle Tucannon River,MTRB0,06,DOWNSTREAM ARRAY,110
+MTR,Middle Tucannon River,MTRA0,01,Upstream Array,120
+MTR,Middle Tucannon River,MTRA0,02,Upstream Array,120
+MTR,Middle Tucannon River,MTRB0,03,Downstream Array,120
+MTR,Middle Tucannon River,MTRB0,04,Downstream Array,120
+NFS,North Fork Salmon River,NFSA0,01,Upstream Array,100
+NFS,North Fork Salmon River,NFSA0,02,Upstream Array,100
+NFS,North Fork Salmon River,NFSA0,03,Upstream Array,100
+NFS,North Fork Salmon River,NFSB0,04,Downstream Array,100
+NFS,North Fork Salmon River,NFSB0,05,Downstream Array,100
+NFS,North Fork Salmon River,NFSB0,06,Downstream Array,100
+PCA,Panther Creek Array,PCAA0,01,Upstream Array,100
+PCA,Panther Creek Array,PCAA0,02,Upstream Array,100
+PCA,Panther Creek Array,PCAA0,03,Upstream Array,100
+PCA,Panther Creek Array,PCAB0,04,Downstream Array,100
+PCA,Panther Creek Array,PCAB0,05,Downstream Array,100
+PCA,Panther Creek Array,PCAB0,06,Downstream Array,100
+PCM,"Pine Creek Mouth, Potlatch R.",PCMA0,01,Upstream Array,100
+PCM,"Pine Creek Mouth, Potlatch R.",PCMA0,02,Upstream Array,100
+PCM,"Pine Creek Mouth, Potlatch R.",PCMB0,03,Downstream Array,100
+PCM,"Pine Creek Mouth, Potlatch R.",PCMB0,04,Downstream Array,100
+PWA,Penawawa Creek,PWAA0,01,Upstream Antenna,100
+PWA,Penawawa Creek,PWAB0,02,Downstream Antenna,100
+RFL,Redfish Lake Creek,RFL,01,Instream Array,100
+RFL,Redfish Lake Creek,RFL,02,Instream Array,100
+RFL,Redfish Lake Creek,RFL,03,Instream Array,100
+RFL,Redfish Lake Creek,RFL,04,Instream Array,100
+S2I,Lemhi Sub-reach 2 SC Inlet,S2I,01,Single Antenna,100
+S2O,Lemhi Sub-reach 2 SC Outlet,S2O,01,Single Antenna,100
+S3A,Eagle Valley Ranch S3A,S3AB0,01,Downstream Array,100
+S3B,Eagle Valley Ranch S3B,S3BA0,01,Upstream Array,100
+SC1,Lower SF Clearwater R at rkm 1,SC1,B1,INSTREAM ARRAY,100
+SC1,Lower SF Clearwater R at rkm 1,SC1,B2,INSTREAM ARRAY,100
+SC1,Lower SF Clearwater R at rkm 1,SC1,B3,INSTREAM ARRAY,100
+SC1,Lower SF Clearwater R at rkm 1,SC1,B4,INSTREAM ARRAY,100
+SC1,Lower SF Clearwater R at rkm 1,SC1,B5,INSTREAM ARRAY,100
+SC1,Lower SF Clearwater R at rkm 1,SC1,B6,INSTREAM ARRAY,100
+SC1,Lower SF Clearwater R at rkm 1,SC1,B1,INSTREAM ARRAY,110
+SC1,Lower SF Clearwater R at rkm 1,SC1,B2,INSTREAM ARRAY,110
+SC1,Lower SF Clearwater R at rkm 1,SC1,B3,INSTREAM ARRAY,110
+SC1,Lower SF Clearwater R at rkm 1,SC1,B4,INSTREAM ARRAY,110
+SC1,Lower SF Clearwater R at rkm 1,SC1,B5,INSTREAM ARRAY,110
+SC1,Lower SF Clearwater R at rkm 1,SC1,B6,INSTREAM ARRAY,110
+SC1,Lower SF Clearwater R at rkm 1,SC1,B7,INSTREAM ARRAY,110
+SC2,Lower SF Clearwater R at rkm 2,SC2,A1,INSTREAM ARRAY,100
+SC2,Lower SF Clearwater R at rkm 2,SC2,A2,INSTREAM ARRAY,100
+SC2,Lower SF Clearwater R at rkm 2,SC2,A3,INSTREAM ARRAY,100
+SC2,Lower SF Clearwater R at rkm 2,SC2,A4,INSTREAM ARRAY,100
+SC2,Lower SF Clearwater R at rkm 2,SC2,A5,INSTREAM ARRAY,100
+SC2,Lower SF Clearwater R at rkm 2,SC2,A6,INSTREAM ARRAY,100
+SC3,South Fork Clearwater Site 3,SC3,01,Single Array,100
+SC3,South Fork Clearwater Site 3,SC3,02,Single Array,100
+SC3,South Fork Clearwater Site 3,SC3,03,Single Array,100
+SC3,South Fork Clearwater Site 3,SC3,04,Single Array,100
+SC3,South Fork Clearwater Site 3,SC3,05,Single Array,100
+SC4,South Fork Clearwater Site 4,SC4A0,01,Upstream Array,100
+SC4,South Fork Clearwater Site 4,SC4A0,02,Upstream Array,100
+SC4,South Fork Clearwater Site 4,SC4A0,03,Upstream Array,100
+SC4,South Fork Clearwater Site 4,SC4A0,04,Upstream Array,100
+SC4,South Fork Clearwater Site 4,SC4B0,05,Downstream Array,100
+SC4,South Fork Clearwater Site 4,SC4B0,06,Downstream Array,100
+SC4,South Fork Clearwater Site 4,SC4B0,07,Downstream Array,100
+SC4,South Fork Clearwater Site 4,SC4B0,08,Downstream Array,100
+SC4,South Fork Clearwater Site 4,SC4B0,09,Downstream Array,100
+SFG,SF Salmon at Guard Station Br.,SFG,A1,IN-STREAM ARRAY,100
+SFG,SF Salmon at Guard Station Br.,SFG,A2,IN-STREAM ARRAY,100
+SFG,SF Salmon at Guard Station Br.,SFG,A3,IN-STREAM ARRAY,100
+SFG,SF Salmon at Guard Station Br.,SFG,A4,IN-STREAM ARRAY,100
+SFG,SF Salmon at Guard Station Br.,SFG,A5,IN-STREAM ARRAY,100
+SFG,SF Salmon at Guard Station Br.,SFG,A6,IN-STREAM ARRAY,100
+SIX,Sixmile Creek Seasonal IPTDS,SIXA0,01,Upstream LITZ Cord,100
+SIX,Sixmile Creek Seasonal IPTDS,SIXB0,02,Downstream LITZ Cord,100
+SW1,Lower Selway River Array,SW1,A1,River Left-side Array,100
+SW1,Lower Selway River Array,SW1,A2,River Left-side Array,100
+SW1,Lower Selway River Array,SW1,A3,River Left-side Array,100
+SW1,Lower Selway River Array,SW1,A4,River Left-side Array,100
+SW1,Lower Selway River Array,SW1,A5,River Left-side Array,100
+SW1,Lower Selway River Array,SW1,A6,River Left-side Array,100
+SW1,Lower Selway River Array,SW1,A7,River Left-side Array,100
+SW1,Lower Selway River Array,SW1,A8,River Left-side Array,100
+SW1,Lower Selway River Array,SW1,A9,River Left-side Array,100
+SW1,Lower Selway River Array,SW1,AA,River Left-side Array,100
+SW1,Lower Selway River Array,SW1,B1,River Right-side Array,100
+SW1,Lower Selway River Array,SW1,B2,River Right-side Array,100
+SW1,Lower Selway River Array,SW1,B3,River Right-side Array,100
+SW1,Lower Selway River Array,SW1,B4,River Right-side Array,100
+SW1,Lower Selway River Array,SW1,B5,River Right-side Array,100
+SW1,Lower Selway River Array,SW1,B6,River Right-side Array,100
+SW1,Lower Selway River Array,SW1,B7,River Right-side Array,100
+SW1,Lower Selway River Array,SW1,B8,River Right-side Array,100
+SW1,Lower Selway River Array,SW1,B9,River Right-side Array,100
+SW2,Upper Selway River Array,SW2,A1,River Left-side Array,100
+SW2,Upper Selway River Array,SW2,A2,River Left-side Array,100
+SW2,Upper Selway River Array,SW2,A3,River Left-side Array,100
+SW2,Upper Selway River Array,SW2,A4,River Left-side Array,100
+SW2,Upper Selway River Array,SW2,A5,River Left-side Array,100
+SW2,Upper Selway River Array,SW2,A6,River Left-side Array,100
+SW2,Upper Selway River Array,SW2,A7,River Left-side Array,100
+SW2,Upper Selway River Array,SW2,A8,River Left-side Array,100
+SW2,Upper Selway River Array,SW2,A9,River Left-side Array,100
+SW2,Upper Selway River Array,SW2,B1,River Right-side Array,100
+SW2,Upper Selway River Array,SW2,B2,River Right-side Array,100
+SW2,Upper Selway River Array,SW2,B3,River Right-side Array,100
+SW2,Upper Selway River Array,SW2,B4,River Right-side Array,100
+SW2,Upper Selway River Array,SW2,B5,River Right-side Array,100
+SW2,Upper Selway River Array,SW2,B6,River Right-side Array,100
+SW2,Upper Selway River Array,SW2,B7,River Right-side Array,100
+SW2,Upper Selway River Array,SW2,B8,River Right-side Array,100
+SW2,Upper Selway River Array,SW2,B9,River Right-side Array,100
+SWT,Sweetwater Cr. near its mouth,SWTA0,B1,UPPER IN-STREAM ARRAY,100
+SWT,Sweetwater Cr. near its mouth,SWTB0,B2,LOWER IN-STREAM ARRAY,100
+SWT,Sweetwater Cr. near its mouth,SWTA0,B1,UPPER INSTREAM ARRAY,110
+SWT,Sweetwater Cr. near its mouth,SWTA0,B2,MIDDLE INSTREAM ARRAY,110
+SWT,Sweetwater Cr. near its mouth,SWTB0,B3,LOWER INSTREAM ARRAY,110
+TAY,Big Creek at Taylor Ranch,TAYA0,A1,UPPER IN-STREAM ARRAY,100
+TAY,Big Creek at Taylor Ranch,TAYA0,A2,UPPER IN-STREAM ARRAY,100
+TAY,Big Creek at Taylor Ranch,TAYA0,A3,UPPER IN-STREAM ARRAY,100
+TAY,Big Creek at Taylor Ranch,TAYA0,A4,UPPER IN-STREAM ARRAY,100
+TAY,Big Creek at Taylor Ranch,TAYA0,A5,UPPER IN-STREAM ARRAY,100
+TAY,Big Creek at Taylor Ranch,TAYA0,A6,UPPER IN-STREAM ARRAY,100
+TAY,Big Creek at Taylor Ranch,TAYB0,B1,LOWER IN-STREAM ARRAY,100
+TAY,Big Creek at Taylor Ranch,TAYB0,B2,LOWER IN-STREAM ARRAY,100
+TAY,Big Creek at Taylor Ranch,TAYB0,B3,LOWER IN-STREAM ARRAY,100
+TAY,Big Creek at Taylor Ranch,TAYB0,B4,LOWER IN-STREAM ARRAY,100
+TAY,Big Creek at Taylor Ranch,TAYB0,B5,LOWER IN-STREAM ARRAY,100
+TAY,Big Creek at Taylor Ranch,TAYB0,B6,LOWER IN-STREAM ARRAY,100
+TAY,Big Creek at Taylor Ranch,TAYA0,01,Upstream Array,110
+TAY,Big Creek at Taylor Ranch,TAYA0,02,Upstream Array,110
+TAY,Big Creek at Taylor Ranch,TAYA0,03,Upstream Array,110
+TAY,Big Creek at Taylor Ranch,TAYA0,04,Upstream Array,110
+TAY,Big Creek at Taylor Ranch,TAYA0,05,Upstream Array,110
+TAY,Big Creek at Taylor Ranch,TAYA0,06,Upstream Array,110
+TAY,Big Creek at Taylor Ranch,TAYB0,07,Downstream Array,110
+TAY,Big Creek at Taylor Ranch,TAYB0,08,Downstream Array,110
+TAY,Big Creek at Taylor Ranch,TAYB0,09,Downstream Array,110
+TAY,Big Creek at Taylor Ranch,TAYB0,0A,Downstream Array,110
+TAY,Big Creek at Taylor Ranch,TAYB0,0B,Downstream Array,110
+TAY,Big Creek at Taylor Ranch,TAYB0,0C,Downstream Array,110
+TFH,Tucannon Fish Hatchery,TFHA0,F1,UPSTREAM ARRAY,100
+TFH,Tucannon Fish Hatchery,TFHA0,F2,UPSTREAM ARRAY,100
+TFH,Tucannon Fish Hatchery,TFHA0,F3,UPSTREAM ARRAY,100
+TFH,Tucannon Fish Hatchery,TFHB0,F4,DOWNSTREAM ARRAY,100
+TFH,Tucannon Fish Hatchery,TFHB0,F5,DOWNSTREAM ARRAY,100
+TFH,Tucannon Fish Hatchery,TFHB0,F6,DOWNSTREAM ARRAY,100
+TFH,Tucannon Fish Hatchery,TFHA0,01,Upstream Array A,110
+TFH,Tucannon Fish Hatchery,TFHA0,02,Upstream Array A,110
+TFH,Tucannon Fish Hatchery,TFHA0,03,Upstream Array A,110
+TFH,Tucannon Fish Hatchery,TFHA0,04,Upstream Array B,110
+TFH,Tucannon Fish Hatchery,TFHA0,05,Upstream Array B,110
+TFH,Tucannon Fish Hatchery,TFHA0,06,Upstream Array B,110
+TFH,Tucannon Fish Hatchery,TFHB0,07,Ladder Array,110
+TFH,Tucannon Fish Hatchery,TFHB0,08,Ladder Array,110
+TFH,Tucannon Fish Hatchery,TFHB0,09,Downstream Array C,110
+TFH,Tucannon Fish Hatchery,TFHB0,0A,Downstream Array C,110
+TFH,Tucannon Fish Hatchery,TFHB0,0B,Downstream Array D,110
+TFH,Tucannon Fish Hatchery,TFHB0,0C,Downstream Array D,110
+TFH,Tucannon Fish Hatchery,TFHB0,07,Ladder Array,120
+TFH,Tucannon Fish Hatchery,TFHB0,08,Ladder Array,120
+TFH,Tucannon Fish Hatchery,TFHB0,09,Downstream Array C,120
+TFH,Tucannon Fish Hatchery,TFHB0,0A,Downstream Array C,120
+TFH,Tucannon Fish Hatchery,TFHB0,0B,Downstream Array D,120
+TFH,Tucannon Fish Hatchery,TFHB0,0C,Downstream Array D,120
+TPJ,Tucannon at Panjab Creek,TPJA0,01,Upstream Array,100
+TPJ,Tucannon at Panjab Creek,TPJA0,02,Upstream Array,100
+TPJ,Tucannon at Panjab Creek,TPJB0,03,Panjab Array,100
+TPJ,Tucannon at Panjab Creek,TPJB0,04,Downstream Array,100
+TPJ,Tucannon at Panjab Creek,TPJB0,05,Downstream Array,100
+UGR,Upper Grande Ronde at rkm 155,UGR,A1,SINGLE ARRAY,100
+UGR,Upper Grande Ronde at rkm 155,UGR,A2,SINGLE ARRAY,100
+UGR,Upper Grande Ronde at rkm 155,UGR,A3,SINGLE ARRAY,100
+UGR,Upper Grande Ronde at rkm 155,UGR,A4,SINGLE ARRAY,100
+UGR,Upper Grande Ronde at rkm 155,UGR,A5,SINGLE ARRAY,100
+UGR,Upper Grande Ronde at rkm 155,UGR,A6,SINGLE ARRAY,100
+UGS,Upper Grande Ronde Starkey,UGSA0,E1,Upstream Array,100
+UGS,Upper Grande Ronde Starkey,UGSA0,E2,Upstream Array,100
+UGS,Upper Grande Ronde Starkey,UGSA0,E3,Upstream Array,100
+UGS,Upper Grande Ronde Starkey,UGSA0,E4,Middle Array,100
+UGS,Upper Grande Ronde Starkey,UGSA0,E5,Middle Array,100
+UGS,Upper Grande Ronde Starkey,UGSA0,E6,Middle Array,100
+UGS,Upper Grande Ronde Starkey,UGSB0,E7,Downstream Array,100
+UGS,Upper Grande Ronde Starkey,UGSB0,E8,Downstream Array,100
+UGS,Upper Grande Ronde Starkey,UGSA0,01,Upstream Array,110
+UGS,Upper Grande Ronde Starkey,UGSA0,02,Upstream Array,110
+UGS,Upper Grande Ronde Starkey,UGSA0,03,Upstream Array,110
+UGS,Upper Grande Ronde Starkey,UGSA0,04,Middle Array,110
+UGS,Upper Grande Ronde Starkey,UGSA0,05,Middle Array,110
+UGS,Upper Grande Ronde Starkey,UGSA0,06,Middle Array,110
+UGS,Upper Grande Ronde Starkey,UGSB0,07,Downstream Array,110
+UGS,Upper Grande Ronde Starkey,UGSB0,08,Downstream Array,110
+USE,Upper Salmon River at rkm 437,USE,B1,ARRAY,100
+USE,Upper Salmon River at rkm 437,USE,B2,ARRAY,100
+USE,Upper Salmon River at rkm 437,USE,B3,ARRAY,100
+USE,Upper Salmon River at rkm 437,USE,B4,ARRAY,100
+USE,Upper Salmon River at rkm 437,USE,B5,ARRAY,100
+USE,Upper Salmon River at rkm 437,USE,B6,ARRAY,100
+USI,Upper Salmon River at rkm 460,USI,A1,ARRAY,100
+USI,Upper Salmon River at rkm 460,USI,A2,ARRAY,100
+USI,Upper Salmon River at rkm 460,USI,A3,ARRAY,100
+USI,Upper Salmon River at rkm 460,USI,A4,ARRAY,100
+USI,Upper Salmon River at rkm 460,USI,A5,ARRAY,100
+USI,Upper Salmon River at rkm 460,USI,A6,ARRAY,100
+UTR,Upper Tucannon River,UTRA0,A1,UPSTREAM ARRAY,100
+UTR,Upper Tucannon River,UTRA0,A2,UPSTREAM ARRAY,100
+UTR,Upper Tucannon River,UTRA0,A3,MIDDLE ARRAY,100
+UTR,Upper Tucannon River,UTRA0,A4,MIDDLE ARRAY,100
+UTR,Upper Tucannon River,UTRB0,A5,DOWNSTREAM ARRAY,100
+UTR,Upper Tucannon River,UTRB0,A6,DOWNSTREAM ARRAY,100
+UTR,Upper Tucannon River,UTRA0,A1,Upstream Array,110
+UTR,Upper Tucannon River,UTRA0,A2,Upstream Array,110
+UTR,Upper Tucannon River,UTRB0,A3,Downstream Array,110
+UTR,Upper Tucannon River,UTRB0,A4,Downstream Array,110
+VC1,"Valley Creek, Upstream Site",VC1B0,A1,MAIN,100
+VC1,"Valley Creek, Upstream Site",VC1A0,01,Upstream Array,110
+VC1,"Valley Creek, Upstream Site",VC1A0,02,Upstream Array,110
+VC1,"Valley Creek, Upstream Site",VC1B0,03,Downstream Array,110
+VC1,"Valley Creek, Upstream Site",VC1B0,04,Downstream Array,110
+VC1,"Valley Creek, Upstream Site",VC1A0,A1,UPSTREAM ARRAY,120
+VC1,"Valley Creek, Upstream Site",VC1A0,A2,Upstream Array,120
+VC1,"Valley Creek, Upstream Site",VC1B0,A3,DOWNSTREAM ARRAY,120
+VC1,"Valley Creek, Upstream Site",VC1B0,A4,Downstream Array,120
+VC2,"Valley Creek, Downstream Site",VC2B0,A1,MAIN,100
+VC2,"Valley Creek, Downstream Site",VC2B0,01,SPEEDBUMP ANTENNA ARRAY,110
+VC2,"Valley Creek, Downstream Site",VC2B0,02,SPEEDBUMP ANTENNA ARRAY,110
+VC2,"Valley Creek, Downstream Site",VC2B0,03,SPEEDBUMP ANTENNA ARRAY,110
+VC2,"Valley Creek, Downstream Site",VC2B0,04,SPEEDBUMP ANTENNA ARRAY,110
+VC2,"Valley Creek, Downstream Site",VC2B0,05,SPEEDBUMP ANTENNA ARRAY,110
+VC2,"Valley Creek, Downstream Site",VC2B0,06,SPEEDBUMP ANTENNA ARRAY,110
+VC2,"Valley Creek, Downstream Site",VC2A0,01,UPSTREAM 3-ANTENNA ARRAY,120
+VC2,"Valley Creek, Downstream Site",VC2A0,02,UPSTREAM 3-ANTENNA ARRAY,120
+VC2,"Valley Creek, Downstream Site",VC2A0,03,UPSTREAM 3-ANTENNA ARRAY,120
+VC2,"Valley Creek, Downstream Site",VC2B0,04,DOWNSTREAM 3-ANTENNA ARRAY,120
+VC2,"Valley Creek, Downstream Site",VC2B0,05,DOWNSTREAM 3-ANTENNA ARRAY,120
+VC2,"Valley Creek, Downstream Site",VC2B0,06,DOWNSTREAM 3-ANTENNA ARRAY,120
+VC2,"Valley Creek, Downstream Site",VC2A0,B1,Upstream 3-antenna Array,130
+VC2,"Valley Creek, Downstream Site",VC2A0,B2,Upstream 3-antenna Array,130
+VC2,"Valley Creek, Downstream Site",VC2A0,B3,Upstream 3-antenna Array,130
+VC2,"Valley Creek, Downstream Site",VC2B0,B4,Downstream 3-antenna Array,130
+VC2,"Valley Creek, Downstream Site",VC2B0,B5,Downstream 3-antenna Array,130
+VC2,"Valley Creek, Downstream Site",VC2B0,B6,Downstream 3-antenna Array,130
+WB1,White Bird Cr Seasonal IPTDS,WB1A0,01,Upstream Array,100
+WB1,White Bird Cr Seasonal IPTDS,WB1A0,02,Upstream Array,100
+WB1,White Bird Cr Seasonal IPTDS,WB1B0,03,Downstream Array,100
+WB1,White Bird Cr Seasonal IPTDS,WB1B0,04,Downstream Array,100
+WEB,Webb Creek,WEBA0,D1,UPSTREAM ANTENNA,100
+WEB,Webb Creek,WEBB0,D2,DOWNSTREAM ANTENNA,100
+WEN,Wenaha River Mouth,WENA0,01,Upstream Array,100
+WEN,Wenaha River Mouth,WENA0,02,Upstream Array,100
+WEN,Wenaha River Mouth,WENA0,03,Upstream Array,100
+WEN,Wenaha River Mouth,WENA0,04,Upstream Array,100
+WEN,Wenaha River Mouth,WENA0,05,Upstream Array,100
+WEN,Wenaha River Mouth,WENB0,06,Downstream Array,100
+WEN,Wenaha River Mouth,WENB0,07,Downstream Array,100
+WEN,Wenaha River Mouth,WENB0,08,Downstream Array,100
+WEN,Wenaha River Mouth,WENB0,09,Downstream Array,100
+WEN,Wenaha River Mouth,WENA0,02,Upstream Array,110
+WEN,Wenaha River Mouth,WENA0,03,Upstream Array,110
+WEN,Wenaha River Mouth,WENA0,06,Upstream Array,110
+WEN,Wenaha River Mouth,WENA0,07,Middle Array,110
+WEN,Wenaha River Mouth,WENB0,08,Downstream Array,110
+WPC,"Wimpey Creek, Lemhi R. Basin",WPCA0,01,Upstream Array,100
+WPC,"Wimpey Creek, Lemhi R. Basin",WPCA0,02,Upstream Array,100
+WPC,"Wimpey Creek, Lemhi R. Basin",WPCA0,03,Upstream Array,100
+WPC,"Wimpey Creek, Lemhi R. Basin",WPCA0,04,Middle Array,100
+WPC,"Wimpey Creek, Lemhi R. Basin",WPCA0,05,Middle Array,100
+WPC,"Wimpey Creek, Lemhi R. Basin",WPCA0,06,Middle Array,100
+WPC,"Wimpey Creek, Lemhi R. Basin",WPCB0,07,Downstream Array,100
+WPC,"Wimpey Creek, Lemhi R. Basin",WPCB0,08,Downstream Array,100
+WPC,"Wimpey Creek, Lemhi R. Basin",WPCB0,09,Downstream Array,100
+WPC,"Wimpey Creek, Lemhi R. Basin",WPCA0,01,Upstream Antenna,110
+WPC,"Wimpey Creek, Lemhi R. Basin",WPCB0,02,Downstream Antenna,110
+WR1,Wallowa River at river km 14,WR1,A1,Left Bank,100
+WR1,Wallowa River at river km 14,WR1,A2,Mid-Left,100
+WR1,Wallowa River at river km 14,WR1,A3,Left Center,100
+WR1,Wallowa River at river km 14,WR1,A4,Right Center,100
+WR1,Wallowa River at river km 14,WR1,A5,Mid-Right,100
+WR1,Wallowa River at river km 14,WR1,A6,Right Bank,100
+WR2,Wallowa River at rkm 32,WR2A0,01,Upstream Array,100
+WR2,Wallowa River at rkm 32,WR2A0,02,Upstream Array,100
+WR2,Wallowa River at rkm 32,WR2A0,03,Upstream Array,100
+WR2,Wallowa River at rkm 32,WR2A0,04,Upstream Array,100
+WR2,Wallowa River at rkm 32,WR2B0,05,Downstream Array,100
+WR2,Wallowa River at rkm 32,WR2B0,06,Downstream Array,100
+WR2,Wallowa River at rkm 32,WR2B0,07,Downstream Array,100
+WR2,Wallowa River at rkm 32,WR2B0,08,Downstream Array,100
+WR2,Wallowa River at rkm 32,WR2A0,01,Upstream Array,110
+WR2,Wallowa River at rkm 32,WR2A0,02,Upstream Array,110
+WR2,Wallowa River at rkm 32,WR2A0,03,Upstream Array,110
+WR2,Wallowa River at rkm 32,WR2B0,05,Downstream Array,110
+YFK,Yankee Fork Salmon River,YFKA0,A1,UPSTREAM ARRAY,100
+YFK,Yankee Fork Salmon River,YFKA0,A2,UPSTREAM ARRAY,100
+YFK,Yankee Fork Salmon River,YFKB0,A3,DOWNSTREAM ARRAY,100
+YFK,Yankee Fork Salmon River,YFKB0,A4,DOWNSTREAM ARRAY,100
+YPP,Yellow Pine Pit Lake,YPPA0,01,Upstream Antenna,100
+YPP,Yellow Pine Pit Lake,YPPB0,02,Downstream Antenna,100
+ZEN,Secesh River at Zena Cr. Ranch,ZENA0,A1,UPPER IN-STREAM ARRAY,100
+ZEN,Secesh River at Zena Cr. Ranch,ZENA0,A2,UPPER IN-STREAM ARRAY,100
+ZEN,Secesh River at Zena Cr. Ranch,ZENA0,A3,UPPER IN-STREAM ARRAY,100
+ZEN,Secesh River at Zena Cr. Ranch,ZENA0,A4,UPPER IN-STREAM ARRAY,100
+ZEN,Secesh River at Zena Cr. Ranch,ZENB0,B1,LOWER IN-STREAM ARRAY,100
+ZEN,Secesh River at Zena Cr. Ranch,ZENB0,B2,LOWER IN-STREAM ARRAY,100
+ZEN,Secesh River at Zena Cr. Ranch,ZENB0,B3,LOWER IN-STREAM ARRAY,100
+ZEN,Secesh River at Zena Cr. Ranch,ZENB0,B4,LOWER IN-STREAM ARRAY,100
+ZEN,Secesh River at Zena Cr. Ranch,ZENB0,B5,LOWER IN-STREAM ARRAY,100
+ZEN,Secesh River at Zena Cr. Ranch,ZENB0,B6,,100
+ZEN,Secesh River at Zena Cr. Ranch,ZENA0,A1,UPPER IN-STREAM ARRAY,110
+ZEN,Secesh River at Zena Cr. Ranch,ZENA0,A2,UPPER IN-STREAM ARRAY,110
+ZEN,Secesh River at Zena Cr. Ranch,ZENA0,A3,UPPER IN-STREAM ARRAY,110
+ZEN,Secesh River at Zena Cr. Ranch,ZENA0,A4,UPPER IN-STREAM ARRAY,110
+ZEN,Secesh River at Zena Cr. Ranch,ZENB0,B1,LOWER IN-STREAM ARRAY,110
+ZEN,Secesh River at Zena Cr. Ranch,ZENB0,B2,LOWER IN-STREAM ARRAY,110
+ZEN,Secesh River at Zena Cr. Ranch,ZENB0,B3,LOWER IN-STREAM ARRAY,110
+ZEN,Secesh River at Zena Cr. Ranch,ZENB0,B4,LOWER IN-STREAM ARRAY,110
+ZEN,Secesh River at Zena Cr. Ranch,ZENB0,B5,LOWER IN-STREAM ARRAY,110
+ZEN,Secesh River at Zena Cr. Ranch,ZENB0,B6,LOWER IN-STREAM ARRAY,110
