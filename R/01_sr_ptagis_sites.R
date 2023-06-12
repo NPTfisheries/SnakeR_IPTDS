@@ -102,9 +102,17 @@ sr_sites = sr_sites %>%
   mutate(sthd_trt_popid = ifelse(grepl('^SC1$|^SC2$', site_code), 'CRSFC-s', sthd_trt_popid)) %>%
   mutate(chnk_pop_name = ifelse(grepl('^SC1$|^SC2$', site_code), 'South Fork Clearwater River', chnk_pop_name))
 
-# write_csv
+# write_csvs
 write_csv(sr_sites,
           file = here("data/derived_data/Snake_PTAGIS_IPTDS_sites_20230609.csv"))
+
+# spsm_pop %>%
+#   st_drop_geometry() %>%
+#   write_csv(file = here("docs/Snake_R_spsum_Chinook_TRT_pops.csv"))
+# 
+# sth_pop %>%
+#   st_drop_geometry() %>%
+#   write_csv(file = here("docs/Snake_R_steelhead_TRT_pops.csv"))
 
 
 
