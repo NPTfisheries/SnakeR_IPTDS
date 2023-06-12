@@ -39,6 +39,7 @@ chnk_pops = spsm_pop %>%
 sthd_pops = sth_pop %>%
   select(TRT_POPID, POP_NAME, MPG)
 
+# some steelhead GIS data from Ryan K.
 load(here("data/derived_data/spatial/steelhead_gis_data.rda"))
 sthd_streams = sthd_critical %>%
   st_transform("EPSG:4326")
