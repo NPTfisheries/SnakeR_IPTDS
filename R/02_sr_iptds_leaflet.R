@@ -51,6 +51,7 @@ sthd_spawn_wgs84 = sthd_spawn %>%
 # SET SOME COLORS
 chnk_mpg_col = colorFactor(palette = "Set1", domain = chnk_pops$MPG)
 sthd_mpg_col = colorFactor(palette = "Dark2", domain = sthd_pops$MPG)
+sthd_spawn_col = colorFactor(palette = c('skyblue','navy'), domain = sthd_spawn_wgs84$TYPE, reverse = TRUE)
 int_om_col = colorFactor(c("red", "gray"), domain = iptds$integrated_om_site)
 status_and_trends_col = colorFactor(c('red', 'orange', 'yellow'), domain = iptds$adult_status_trends)
 funding_col <- colorFactor(palette = 'Set3', domain = iptds$bpa_funding)
@@ -95,18 +96,18 @@ sr_iptds_leaflet = base %>%
                             "<b>Pop Name:</b>", sthd_pops$POP_NAME, "</br>",
                             "<b>MPG:</b>", sthd_pops$MPG, "</br>")) %>%
   # steelhead major/minor spawning areas
-  # addPolygons(data = sthd_spawn_wgs84,
-  #             group = "Steelhead Spawning Areas",
-  #             fillColor = ~sthd_spawn_col(TYPE),
-  #             fillOpacity = 0.2,
-  #             stroke = T,
-  #             weight = 1,
-  #             color = "black",
-  #             opacity = 1,
-  #             label = ~paste0(POP_NAME, ": ", MSA_NAME)) %>%
+  addPolygons(data = sthd_spawn_wgs84,
+              group = "Steelhead Spawning Areas",
+              fillColor = ~sthd_spawn_col(TYPE),
+              fillOpacity = 0.2,
+              stroke = T,
+              weight = 1,
+              color = "black",
+              opacity = 1,
+              label = ~paste0(POP_NAME, ": ", MSA_NAME)) %>%
   # add iptds site information
   addCircles(data = iptds,
-             group = "All Sites",
+             group = "All IPTDS Sites",
              label = ~site_code,
              color = "black",
              opacity = 1,
@@ -136,13 +137,21 @@ sr_iptds_leaflet = base %>%
                    color = ~funding_col(bpa_funding)) %>%
   # control layers
   addLayersControl(baseGroups = c("Chinook Salmon Populations",
-                                  "Steelhead Populations"),
-                   overlayGroups = c("All Sites",
+                                  "Steelhead Populations",
+                                  "Steelhead Spawning Areas"),
+                   overlayGroups = c("All IPTDS Sites",
                                      "Integrated O&M Sites",
                                      "Status and Trends",
                                      "O&M Funding Source(s)"),
                    options = layersControlOptions(collapsed = FALSE)) %>%
   # add legends
+  addLegend(data = sthd_spawn_wgs84,
+            position = "bottomleft",
+            pal = sthd_spawn_col,
+            values = ~TYPE,
+            title = "Spawning Area Type",
+            group = "Steelhead Spawning Areas",
+            opacity = 0.5) %>%
   addLegend(data = iptds, 
             position = "bottomleft",
             pal = int_om_col,
