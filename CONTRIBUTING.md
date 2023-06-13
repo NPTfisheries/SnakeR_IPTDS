@@ -10,7 +10,7 @@ agree to abide by our [code of conduct](CONDUCT.md).
   * Clearly describe your issue, including steps to reproduce when it is a bug, or some justification for a proposed improvement.
 * [Fork](https://github.com/NPTfisheries/SnakeR_IPTDS/#fork-destination-box) the repository on GitHub to make a copy of the repository on your account. Or use this line in your shell terminal:
 
-    `git clone git@github.com:your-username/STADEM.git`
+    `git clone git@github.com:your-username/SnakeR_IPTDS.git`
     
 ## Making changes
 
