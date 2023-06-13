@@ -52,7 +52,7 @@ sthd_spawn_wgs84 = sthd_spawn %>%
 chnk_mpg_col = colorFactor(palette = "Set1", domain = chnk_pops$MPG)
 sthd_mpg_col = colorFactor(palette = "Dark2", domain = sthd_pops$MPG)
 sthd_spawn_col = colorFactor(palette = c('skyblue','navy'), domain = sthd_spawn_wgs84$TYPE, reverse = TRUE)
-int_om_col = colorFactor(c("red", "gray"), domain = iptds$integrated_om_site)
+int_om_col = colorFactor(c("gray", "red"), domain = iptds$integrated_om_site)
 status_and_trends_col = colorFactor(c('red', 'orange', 'yellow'), domain = iptds$adult_status_trends)
 funding_col <- colorFactor(palette = 'Set3', domain = iptds$bpa_funding)
 
@@ -181,6 +181,6 @@ sr_iptds_leaflet = base %>%
 sr_iptds_leaflet
 
 # save leaflet
-saveWidget(sr_iptds_leaflet, file = here("leaflet/sr_iptds_leaflet.html"))
+saveWidget(sr_iptds_leaflet, file = here("shiny/leaflet/sr_iptds_leaflet.html"))
 
 
