@@ -29,6 +29,9 @@ iptds = read_excel(here("docs/Snake River IPTDS Prioritization 20230606.xlsx"),
   st_as_sf(coords = c("longitude", "latitude"),
            crs = 4326)
 
+# traps and weirs
+load(here("data/derived_data/spatial/sr_traps_weirs.rda"))
+
 # populations
 load(here("data/derived_data/spatial/SR_pops.rda"))
 rm(fall_pop)
@@ -135,6 +138,12 @@ sr_iptds_leaflet = base %>%
   addCircleMarkers(data = iptds,
                    group = "O&M Funding Source(s)",
                    color = ~funding_col(bpa_funding)) %>%
+  addCircles(data = sr_traps_weirs,
+             group = "Traps and Weirs",
+             label = ~paste0(site_code, ": ", name),
+             color = "hotpink",
+             opacity = 1,
+             weight = 5) %>%
   # control layers
   addLayersControl(baseGroups = c("Chinook Salmon Populations",
                                   "Steelhead Populations",
@@ -142,7 +151,8 @@ sr_iptds_leaflet = base %>%
                    overlayGroups = c("All IPTDS Sites",
                                      "Integrated O&M Sites",
                                      "Status and Trends",
-                                     "O&M Funding Source(s)"),
+                                     "O&M Funding Source(s)",
+                                     "Traps and Weirs"),
                    options = layersControlOptions(collapsed = FALSE)) %>%
   # add legends
   addLegend(data = sthd_spawn_wgs84,
@@ -176,6 +186,7 @@ sr_iptds_leaflet = base %>%
   hideGroup("Integrated O&M Sites") %>%
   hideGroup("Status and Trends") %>%
   hideGroup("O&M Funding Source(s)") %>%
+  hideGroup("Traps and Weirs") %>%
   addMiniMap()
 
 sr_iptds_leaflet
