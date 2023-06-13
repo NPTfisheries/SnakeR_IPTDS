@@ -114,5 +114,18 @@ write_csv(sr_sites,
 #   st_drop_geometry() %>%
 #   write_csv(file = here("docs/Snake_R_steelhead_TRT_pops.csv"))
 
+# query MRR sites
+sr_traps_weirs = queryMRRMeta() %>%
+  clean_names() %>%
+  filter(str_starts(rkm, "522"),
+         type == "TraporWeir") %>%
+  select(site_code,
+         name,
+         latitude,
+         longitude) %>%
+  st_as_sf(coords = c("longitude", "latitude"),
+           crs = 4326)
 
+# save mrr_sites
+save(sr_traps_weirs, file = here("data/derived_data/spatial/sr_traps_weirs.rda"))
 
