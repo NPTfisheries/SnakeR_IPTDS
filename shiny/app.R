@@ -1,7 +1,7 @@
 library(shiny)
 
-#UI
-ui <- fluidPage(
+# UI
+ui = fluidPage(
   titlePanel("Snake River IPTDS"),
   mainPanel(style='width:100% !important; height:90vh;',
     helpText('Please be patient while the map loads.'),
@@ -10,7 +10,7 @@ ui <- fluidPage(
 )
 
 # Server
-server <- function(input, output) {
+server = function(input, output) {
 }
 
 # App 
