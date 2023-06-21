@@ -29,6 +29,10 @@ iptds = read_excel(here("docs/Snake River IPTDS Prioritization 20230606.xlsx"),
   st_as_sf(coords = c("longitude", "latitude"),
            crs = 4326)
 
+# save iptds for use in Shiny App
+# write_csv(iptds,
+#           file = here("shiny/iptds.csv"))
+
 # traps and weirs
 load(here("data/derived_data/spatial/sr_traps_weirs.rda"))
 
@@ -49,6 +53,11 @@ sthd_streams = sthd_critical %>%
 
 sthd_spawn_wgs84 = sthd_spawn %>%
   st_transform("EPSG:4326")
+
+# write out as shapefile
+# st_write(sthd_spawn_wgs84,
+#          dsn = here("outgoing/sr_sthd_spawn/sr_sthd_spawn.shp"),
+#          driver = "ESRI Shapefile")
 
 # -----------------------
 # SET SOME COLORS
@@ -119,7 +128,8 @@ sr_iptds_leaflet = base %>%
                            "<b>Site Name:</b>", iptds$site_name, "</br>",
                            "<b>Stream:</b>", iptds$stream, "</br>",
                            "<b>Node Count:</b>", iptds$node_count, "</br>",
-                           "<b>Operational:</b>", iptds$operational, "</br>",
+                           "<b>Antenna Count:</b>", iptds$antenna_count, "</br>",
+                           "<b>PTAGIS Active:</b>", iptds$ptagis_active, "</br>",
                            "<b>Detection Probabilities:</b>", iptds$detection_prob, "</br>",
                            "<b>Biomark Integrated O&M Site:</b>", iptds$integrated_om_site, "</br>",
                            "<b>Status and Trends:</b>", iptds$adult_status_trends, "</br>",
