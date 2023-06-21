@@ -45,13 +45,20 @@ write_csv(sr_nodes,
           file = here("data/derived_data/Snake_PTAGIS_IPTDS_nodes_20230609.csv"))
 
 # nodes per site
-sr_nodes %>%
-  select(site_code,
-         node) %>%
-  distinct() %>%
-  group_by(site_code) %>%
-  summarize(node_count = n()) # %>%
-  # write_csv(here("data/derived_data/SR_nodes_per_site_20230609.csv"))
+# sr_nodes %>%
+#   select(site_code,
+#          node) %>%
+#   distinct() %>%
+#   group_by(site_code) %>%
+#   summarize(node_count = n()) # %>%
+
+# antennas per site
+# sr_nodes %>%
+#   select(site_code,
+#          antenna_id) %>%
+#   distinct() %>%
+#   group_by(site_code) %>%
+#   summarize(antenna_count = n())
 
 # summarize Snake River sites
 sr_sites = sr_config %>%
@@ -60,13 +67,17 @@ sr_sites = sr_config %>%
   mutate(min_start_date = as_date(min(start_date, na.rm = T)),
          max_end_date = as_date(max(end_date, na.rm = T))) %>%
   mutate(max_end_date = as_date(ifelse(max_end_date == -Inf, NA, max_end_date))) %>%
+  mutate(node_count = n_distinct(node),
+         antenna_count = n_distinct(antenna_id)) %>%
   select(site_code, 
          site_name,
          site_type_name,
          latitude, 
          longitude, 
          rkm, 
-         rkm_total, 
+         rkm_total,
+         node_count,
+         antenna_count,
          min_start_date, 
          max_end_date, 
          site_description) %>%
@@ -104,7 +115,7 @@ sr_sites = sr_sites %>%
 
 # write_csvs
 write_csv(sr_sites,
-          file = here("data/derived_data/Snake_PTAGIS_IPTDS_sites_20230609.csv"))
+          file = here("data/derived_data/Snake_PTAGIS_IPTDS_sites_20230620.csv"))
 
 # spsm_pop %>%
 #   st_drop_geometry() %>%
