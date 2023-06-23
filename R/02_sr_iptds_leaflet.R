@@ -46,6 +46,10 @@ chnk_pops = spsm_pop %>%
 sthd_pops = sth_pop %>%
   select(TRT_POPID, POP_NAME, MPG)
 
+# chinook major/minor spawning areas
+chnk_spawn = st_read(here("data/derived_data/spatial/ID_CHN_SpawningAreas/ID_CHN_SpawningAreas.shp")) %>%
+  st_transform("EPSG:4326")
+
 # some steelhead GIS data from Ryan K.
 load(here("data/derived_data/spatial/steelhead_gis_data.rda"))
 sthd_streams = sthd_critical %>%
@@ -64,6 +68,7 @@ sthd_spawn_wgs84 = sthd_spawn %>%
 chnk_mpg_col = colorFactor(palette = "Set1", domain = chnk_pops$MPG)
 sthd_mpg_col = colorFactor(palette = "Dark2", domain = sthd_pops$MPG)
 sthd_spawn_col = colorFactor(palette = c('skyblue','navy'), domain = sthd_spawn_wgs84$TYPE, reverse = TRUE)
+chnk_spawn_col = colorFactor(palette = c('springgreen','darkgreen'), domain = sthd_spawn_wgs84$TYPE, reverse = TRUE)
 int_om_col = colorFactor(c("gray", "red"), domain = iptds$integrated_om_site)
 status_and_trends_col = colorFactor(c('red', 'orange', 'yellow'), domain = iptds$adult_status_trends)
 funding_col <- colorFactor(palette = 'Set3', domain = iptds$bpa_funding)
@@ -107,6 +112,16 @@ sr_iptds_leaflet = base %>%
                             "<b>Pop ID:</b>", sthd_pops$TRT_POPID, "</br>",
                             "<b>Pop Name:</b>", sthd_pops$POP_NAME, "</br>",
                             "<b>MPG:</b>", sthd_pops$MPG, "</br>")) %>%
+  # chinook major/minor spawning areas
+  addPolygons(data = chnk_spawn,
+              group = "Chinook Spawning Areas (ID Only)",
+              fillColor = ~chnk_spawn_col(TYPE),
+              fillOpacity = 0.2,
+              stroke = T,
+              weight = 1,
+              color = "black",
+              opacity = 1,
+              label = ~paste0(POP_NAME, ": ", MSA_NAME)) %>%
   # steelhead major/minor spawning areas
   addPolygons(data = sthd_spawn_wgs84,
               group = "Steelhead Spawning Areas",
@@ -156,6 +171,7 @@ sr_iptds_leaflet = base %>%
              weight = 5) %>%
   # control layers
   addLayersControl(baseGroups = c("Chinook Salmon Populations",
+                                  "Chinook Spawning Areas (ID Only)",
                                   "Steelhead Populations",
                                   "Steelhead Spawning Areas"),
                    overlayGroups = c("All IPTDS Sites",
@@ -165,6 +181,13 @@ sr_iptds_leaflet = base %>%
                                      "Traps and Weirs"),
                    options = layersControlOptions(collapsed = FALSE)) %>%
   # add legends
+  addLegend(data = chnk_spawn,
+            position = "bottomleft",
+            pal = chnk_spawn_col,
+            values = ~TYPE,
+            title = "Spawning Area Type",
+            group = "Chinook Spawning Areas (ID Only)",
+            opacity = 0.5) %>%
   addLegend(data = sthd_spawn_wgs84,
             position = "bottomleft",
             pal = sthd_spawn_col,
