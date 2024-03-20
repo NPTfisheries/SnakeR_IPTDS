@@ -24,7 +24,7 @@ library(htmlwidgets)
 # -----------------------
 # COMPILE DATA
 # iptds data
-iptds = read_excel(here("docs/Snake River IPTDS Prioritization 20230606.xlsx"),
+iptds = read_excel(here("docs/Snake River IPTDS Prioritization 20230814.xlsx"),
                         sheet = "SR_IPTDS_Sites") %>%
   st_as_sf(coords = c("longitude", "latitude"),
            crs = 4326)
@@ -227,4 +227,4 @@ sr_iptds_leaflet
 # save leaflet
 saveWidget(sr_iptds_leaflet, file = here("shiny/leaflet/sr_iptds_leaflet.html"))
 
-
+### END SCRIPT

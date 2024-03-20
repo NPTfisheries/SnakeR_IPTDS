@@ -3,10 +3,11 @@
 # Purpose: Query Snake River PIT tag MRR and INT sites from PTAGIS
 # 
 # Created: June 6, 2023
-# Last Modified:
+#   Last Modified: March 20, 2024
+#
 # Notes:
-# -----------------------
 
+# -----------------------
 # clear environment
 rm(list = ls())
 
@@ -17,9 +18,7 @@ library(here)
 library(sf)
 
 # load PITcleanr
-# remotes::install_github("mackerman44/PITcleanr@main", build_vignettes = T, force = T)
 library(PITcleanr)
-# browseVignettes("PITcleanr")
 
 # build original configuration table from PTAGIS (requires interwebs connection); queries all INT and MRR sites in PTAGIS
 og_config = buildConfig() 
@@ -111,7 +110,7 @@ sr_sites = sr_sites %>%
   mutate(chnk_trt_popid = ifelse(grepl('^SC1$|^SC2$', site_code), 'SCUMA', chnk_trt_popid)) %>%
   mutate(chnk_pop_name = ifelse(grepl('^SC1$|^SC2$', site_code), 'Upper South Fork Clearwater', chnk_pop_name)) %>%
   mutate(sthd_trt_popid = ifelse(grepl('^SC1$|^SC2$', site_code), 'CRSFC-s', sthd_trt_popid)) %>%
-  mutate(chnk_pop_name = ifelse(grepl('^SC1$|^SC2$', site_code), 'South Fork Clearwater River', chnk_pop_name))
+  mutate(sthd_pop_name = ifelse(grepl('^SC1$|^SC2$', site_code), 'South Fork Clearwater River', sthd_pop_name))
 
 # write_csvs
 write_csv(sr_sites,
@@ -140,3 +139,4 @@ sr_traps_weirs = queryMRRMeta() %>%
 # save mrr_sites
 save(sr_traps_weirs, file = here("data/derived_data/spatial/sr_traps_weirs.rda"))
 
+# END SCRIPT
