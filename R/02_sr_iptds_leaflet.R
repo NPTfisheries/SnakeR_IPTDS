@@ -29,10 +29,6 @@ iptds = read_excel(here("docs/Snake River IPTDS Prioritization 20230814.xlsx"),
   st_as_sf(coords = c("longitude", "latitude"),
            crs = 4326)
 
-# save iptds for use in Shiny App
-# write_csv(iptds,
-#           file = here("shiny/iptds.csv"))
-
 # traps and weirs
 load(here("data/derived_data/spatial/sr_traps_weirs.rda"))
 
