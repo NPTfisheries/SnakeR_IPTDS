@@ -3,9 +3,9 @@
 # Purpose: Create interactive maps for Snake R. IPTDS prioritization and planning
 # 
 # Created: June 9, 2023
-# Last Modified: March 25, 2024
-# Notes: Much of this is based on a previous script iptds_planning.R from RK
+#   Last Modified: March 25, 2024
 # 
+# Notes: Much of this is based on a previous script iptds_planning.R from RK
 
 # -----------------------
 # SETUP
@@ -43,7 +43,7 @@ sthd_pops = sth_pop %>%
   select(TRT_POPID, POP_NAME, MPG)
 
 # chinook major/minor spawning areas
-chnk_spawn = st_read(here("data/derived_data/spatial/ID_CHN_SpawningAreas/ID_CHN_SpawningAreas.shp")) %>%
+chnk_spawn = readRDS(here("data/derived_data/spatial/spsm_spwn_areas.rds")) %>%
   st_transform("EPSG:4326")
 
 # some steelhead GIS data from Ryan K.
@@ -110,7 +110,7 @@ sr_iptds_leaflet = base %>%
                             "<b>MPG:</b>", sthd_pops$MPG, "</br>")) %>%
   # chinook major/minor spawning areas
   addPolygons(data = chnk_spawn,
-              group = "Chinook Spawning Areas (ID Only)",
+              group = "Chinook Spawning Areas",
               fillColor = ~chnk_spawn_col(TYPE),
               fillOpacity = 0.2,
               stroke = T,
@@ -167,7 +167,7 @@ sr_iptds_leaflet = base %>%
              weight = 5) %>%
   # control layers
   addLayersControl(baseGroups = c("Chinook Salmon Populations",
-                                  "Chinook Spawning Areas (ID Only)",
+                                  "Chinook Spawning Areas",
                                   "Steelhead Populations",
                                   "Steelhead Spawning Areas"),
                    overlayGroups = c("All IPTDS Sites",
@@ -182,7 +182,7 @@ sr_iptds_leaflet = base %>%
             pal = chnk_spawn_col,
             values = ~TYPE,
             title = "Spawning Area Type",
-            group = "Chinook Spawning Areas (ID Only)",
+            group = "Chinook Spawning Areas",
             opacity = 0.5) %>%
   addLegend(data = sthd_spawn_wgs84,
             position = "bottomleft",
