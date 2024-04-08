@@ -21,7 +21,7 @@ sthd_df = read_excel("C:/Git/SnakeRiverFishStatus/output/syntheses/LGR_Steelhead
                      sheet = "Pop_Tot_Esc",
                      progress = F)
 
-chnk_df = read_excel("C:/Git/SnakeRiverFishStatus/output/syntheses/LGR_Chinook_all_summaries_2024-04-02.xlsx",
+chnk_df = read_excel("C:/Git/SnakeRiverFishStatus/output/syntheses/LGR_Chinook_all_summaries_2024-04-08.xlsx",
                      sheet = "Pop_Tot_Esc",
                      progress = F)
   
