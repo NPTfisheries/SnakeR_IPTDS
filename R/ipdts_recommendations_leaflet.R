@@ -18,7 +18,7 @@ library(here)
 library(readxl)
 library(sf)
 library(leaflet)
-# library(htmlwidgets)
+library(htmlwidgets)
 
 # -----------------------
 # COMPILE DATA
@@ -252,5 +252,8 @@ sr_iptds_leaflet = base %>%
   hideGroup("Action Priority")
 
 sr_iptds_leaflet
+
+# save leaflet
+saveWidget(sr_iptds_leaflet, file = here("shiny/leaflet/sr_iptds_leaflet.html"))
 
 ### END SCRIPT
