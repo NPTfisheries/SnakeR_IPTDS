@@ -24,7 +24,7 @@ library(htmlwidgets)
 # COMPILE DATA
 
 # current iptds data
-iptds_cur = read_excel(here("docs/Snake River IPTDS Prioritization 20240410.xlsx"),
+iptds_cur = read_excel(here("docs/Snake River IPTDS Prioritization 20240417.xlsx"),
                        sheet = "SR_IPTDS_Sites") %>%
   st_as_sf(coords = c("longitude", "latitude"),
            crs = 4326)
