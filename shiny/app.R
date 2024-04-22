@@ -5,7 +5,7 @@ ui = fluidPage(
   titlePanel("Snake River IPTDS"),
   mainPanel(style = 'width:100% !important; height:90vh;',
     helpText('Please be patient while the map loads.'),
-    includeHTML(path = './leaflet/sr_iptds_leaflet.html')
+    includeHTML(path = './leaflet/sr_iptds_leaflet_recommendations.html')
     )
 )
 
