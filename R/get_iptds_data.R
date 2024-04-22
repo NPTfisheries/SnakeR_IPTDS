@@ -1,5 +1,5 @@
 # -----------------------
-# Author: Mike Ackerman & Ryan N. Kinzer
+# Author: Mike Ackerman
 # Purpose: Compile some IPTDS and/or MRR data for various purposes
 # 
 # Created: April 2022, 2024
