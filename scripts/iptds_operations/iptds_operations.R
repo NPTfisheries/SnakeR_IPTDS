@@ -3,7 +3,7 @@
 # Purpose: Compile some information on IPTDS operational times
 # 
 # Created: April 22, 2024
-#   Last Modified: 
+#   Last Modified: April 29, 2024
 # 
 # Notes: 
 
@@ -112,8 +112,6 @@ test_tag %>%
   #facet_grid(antenna_id~transceiver_id)
   facet_wrap(~antenna_id, ncol = 1)
 
-# consider code to query all sites for a year, either from PTAGIS or BioLogic
-
 # interrogation file information based upon site code and year
 site_code = "ZEN"
 yr = "2023"
@@ -168,21 +166,6 @@ site_env_df = get_biologic_data(site = site[1],
 # which metrics are available?
 site_env_df %>%
   tabyl(parameter.slug)
-
-# retrieve and save environmental data for multiple sites
-for(st in site) {
-  df = get_biologic_data(site = st,
-                         endpoint = "enviro",
-                         begin_dt = begin_dt,
-                         end_dt = end_dt) %>%
-    select(reader.site.slug,
-           parameter.slug,
-           parameter.units,
-           read_at,
-           value)
-  
-  saveRDS(df, paste0(here("data/raw_data/enviro"), "/", st, "_", begin_dt, "_", end_dt, ".rds"))
-}
 
 # this option currently not working due to a url parsing error
 # map(site,
