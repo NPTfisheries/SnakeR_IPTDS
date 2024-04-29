@@ -95,7 +95,7 @@ sr_iptds_config = queryInterrogationConfig() %>%
 # Testing PTAGIS API requests
 
 # virtual test tags; an example
-api_key = '1AA5CF55-C98E-4001-96E4-1E96CEE1E806' # replace with my own
+api_key = "35AA5C57-B2BA-4BF0-A862-E19386625F71" # MAs API Key
 test_tag = queryTestTagSite(site_code = "ZEN",
                             year = 2023,
                             api_key = api_key)
