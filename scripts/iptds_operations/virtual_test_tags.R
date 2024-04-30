@@ -101,6 +101,8 @@ sites = yrs %>%
 # set MAs api key
 api_key = "35AA5C57-B2BA-4BF0-A862-E19386625F71"
 
+# CLEAN UP THE FOLLOWING LOOP!!!
+
 # query virtual test tag data for all sites in a given year
 for (s in sites) {
   tryCatch({
