@@ -90,7 +90,7 @@ iptds_ops %<>%
 # Query virtual test tags via PTAGIS API requests
 
 # year of interest
-yr = 2018
+yr = 2024
 
 # create list of sites that were operational for the given year
 sites = yrs %>%
