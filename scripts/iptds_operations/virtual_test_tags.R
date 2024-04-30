@@ -84,13 +84,13 @@ iptds_ops %<>%
          last_year,
          first_date,
          last_date,
-         everything()) ; rm(yrs)
+         everything())
 
 #---------------------
 # Query virtual test tags via PTAGIS API requests
 
 # year of interest
-yr = 2023
+yr = 2018
 
 # create list of sites that were operational for the given year
 sites = yrs %>%
@@ -102,19 +102,25 @@ sites = yrs %>%
 api_key = "35AA5C57-B2BA-4BF0-A862-E19386625F71"
 
 # query virtual test tag data for all sites in a given year
-for(s in sites) {
-  # use queryTestTagSite() from PITcleanr to send virtual test tag API request to PTAGIS
-  vtt_df = queryTestTagSite(site_code = s,
-                            year = yr,
-                            api_key = api_key)
-  
-  # if vtt_df exists continue; otherwise, move onto next loop
-  if( exists("vtt_df") ) {
-    saveRDS(vtt_df, paste0(here("output/virtual_test_tags"), "/", s, "_", yr, ".rds"))
-    print(paste0("Virtual test tag data saved for site ", s, ", year ", yr, "."))
-  } else {
-    print(paste0("No virtual test tag data for site ", s, ", year ", yr, "."))
-  }
+for (s in sites) {
+  tryCatch({
+    # use queryTestTagSite() from PITcleanr to send virtual test tag API request to PTAGIS
+    vtt_df <- queryTestTagSite(site_code = s,
+                               year = yr,
+                               api_key = api_key)
+    
+    # Save the result if it exists
+    if (!is.null(vtt_df)) {
+      saveRDS(vtt_df, file.path(here("output/virtual_test_tags"), paste0(yr, "/", s, "_", yr, ".rds")))
+      print(paste0("Virtual test tag data saved for site ", s, ", year ", yr, "."))
+    } else {
+      print(paste0("No virtual test tag data for site ", s, ", year ", yr, "."))
+    }
+  }, error = function(e) {
+    # Handle the error (e.g., print a message)
+    print(paste0("Error occurred for site ", s, ": ", conditionMessage(e)))
+  })
 } # end sites loop
 
 ### END SCRIPT
+
