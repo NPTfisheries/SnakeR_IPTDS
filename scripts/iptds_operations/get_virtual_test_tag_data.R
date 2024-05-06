@@ -72,7 +72,7 @@ site_yrs = iptds_ops %>%
 # Query virtual test tags via PTAGIS API requests
 
 # year of interest?
-yr = 2012
+yr = 2009
 
 # list of sites that were operational for the given year
 sites = site_yrs %>%
@@ -81,7 +81,7 @@ sites = site_yrs %>%
   pull()
 
 # set api key
-api_key = read_table(here("ma_api_key.txt"), col_names = F) %>%
+api_key = read_table(here("keys/ma_api_key.txt"), col_names = F) %>%
   as.character()
 
 # a single site and year, for example
