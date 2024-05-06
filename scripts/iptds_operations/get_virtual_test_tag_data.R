@@ -1,10 +1,10 @@
 # -----------------------
 # Author: Mike Ackerman
-# Purpose: Query virtual test tag data for all Snake River sites for
-#   a given year.
+# Purpose: Query virtual test tag data for all Snake River sites in a given year
+#   via PTAGIS API.
 # 
 # Created: April 29, 2024
-#   Last Modified: 
+#   Last Modified: May 6, 2024
 # 
 # Notes: 
 
@@ -21,7 +21,7 @@ library(here)
 iptds_meta = queryInterrogationMeta() %>%
   clean_names()
 
-# snake river interrogation site meta
+# snake river interrogation site metadata
 sr_iptds_meta = iptds_meta %>%
   filter(str_starts(rkm, "522"),
          site_type %in% c("Instream Remote Detection System",
@@ -63,66 +63,61 @@ iptds_ops = sr_iptds_meta %>%
   mutate(first_date = if_else(site_code == "BED", as.Date("2024-02-15"), first_date))
 
 # sequence of years that each site was in operation
-yrs = iptds_ops %>%
+site_yrs = iptds_ops %>%
   group_by(site_code) %>%
   summarise(year = list(seq(min(year(first_date)), max(year(last_date)), by = 1))) %>%
   unnest(year)
 
-# summarize the years and days that each iptds was installed per year
-iptds_ops %<>%
-  left_join(yrs, by = "site_code") %>%
-  group_by(site_code, year) %>%
-  summarise(
-    days = sum(pmax(0, pmin(last_date, as.Date(paste0(year, "-12-31"))) - pmax(first_date, as.Date(paste0(year, "-01-01"))) + 1))
-  ) %>%
-  spread(year, days, fill = 0) %>%
-  left_join(iptds_ops, by = "site_code") %>%
-  select(site_code,
-         active,
-         operational,
-         first_year,
-         last_year,
-         first_date,
-         last_date,
-         everything())
-
 #---------------------
 # Query virtual test tags via PTAGIS API requests
 
-# year of interest
-yr = 2024
+# year of interest?
+yr = 2012
 
-# create list of sites that were operational for the given year
-sites = yrs %>%
+# list of sites that were operational for the given year
+sites = site_yrs %>%
   filter(year == yr) %>%
   select(site_code) %>%
   pull()
 
-# set MAs api key
-api_key = "35AA5C57-B2BA-4BF0-A862-E19386625F71"
+# set api key
+api_key = read_table(here("ma_api_key.txt"), col_names = F) %>%
+  as.character()
 
-# CLEAN UP THE FOLLOWING LOOP!!!
+# a single site and year, for example
+# vtt_df = queryTestTagSite(site_code = "ZEN",
+#                           year = 2023,
+#                           api_key = api_key)
 
-# query virtual test tag data for all sites in a given year
+# plot virtual test data for a single site and year, for example
+# vtt_df %>%
+#   ggplot(aes(x = time_stamp, y = 1)) +
+#   geom_point() +
+#   theme(axis.text.x = element_text(angle = -45, vjust = 0.5),
+#         axis.text.y = element_blank(),
+#         axis.ticks.y = element_blank(),
+#         axis.title.x = element_blank(),
+#         axis.title.y = element_blank()) +
+#   #facet_grid(antenna_id~transceiver_id)
+#   facet_wrap(~antenna_id, ncol = 1)
+
+# query virtual test tag data for all sites operational in a given year
 for (s in sites) {
   tryCatch({
     # use queryTestTagSite() from PITcleanr to send virtual test tag API request to PTAGIS
-    vtt_df <- queryTestTagSite(site_code = s,
-                               year = yr,
-                               api_key = api_key)
+    vtt_df = queryTestTagSite(site_code = s,
+                              year = yr,
+                              api_key = api_key)
     
-    # Save the result if it exists
+    # save the results, if they exist
     if (!is.null(vtt_df)) {
       saveRDS(vtt_df, file.path(here("output/virtual_test_tags"), paste0(yr, "/", s, "_", yr, ".rds")))
       print(paste0("Virtual test tag data saved for site ", s, ", year ", yr, "."))
-    } else {
-      print(paste0("No virtual test tag data for site ", s, ", year ", yr, "."))
     }
   }, error = function(e) {
-    # Handle the error (e.g., print a message)
-    print(paste0("Error occurred for site ", s, ": ", conditionMessage(e)))
+      # handle the error i.e., print an error message
+      print(paste0("Error occurred for site ", s, ": ", conditionMessage(e)))
   })
-} # end sites loop
+}
 
 ### END SCRIPT
-
