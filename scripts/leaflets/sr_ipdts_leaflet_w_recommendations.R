@@ -35,7 +35,8 @@ iptds_rec = read_excel(here("data/derived_data/iptds_site_recommendations_202404
                        sheet = "Sheet1") %>%
   filter(!site_code %in% c("EFS (Proposed)",
                            "WB1",
-                           "SLT (Proposed)")) %>%
+                           "SLT (Proposed)",
+                           "ALP (Proposed)")) %>%
   st_as_sf(coords = c("longitude", "latitude"),
            crs = 4326)
   
