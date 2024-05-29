@@ -153,6 +153,34 @@ vtt_per_day = vtt_per_hr %>%
   summarise(p_vtt = mean(p_vtt),
             .groups = "drop")
 
+# example plot for a single site and year
+site = "BBA"
+yr = 2023
+vtt_per_day %>%
+  filter(site_code == site,
+         year == yr) %>%
+  group_by(site_code, year, transceiver_id) %>%
+  summarise(.groups = "keep") %>%
+  expand(date = format(seq(ymd("1900-01-01"),
+                           ymd("1900-05-31"),
+                           by = "days"),
+                       "%m-%d")) %>%
+  mutate(date = as.Date(paste0(as.character(year), "-", date))) %>%
+  left_join(vtt_per_day,
+            by = c("site_code", "year", "transceiver_id", "date")) %>%
+  # replace NAs with 0
+  mutate(p_vtt = ifelse(is.na(p_vtt), 0, p_vtt),
+         month = month(date),
+         day = day(date)) %>%
+  ggplot(aes(x = date,
+             y = p_vtt)) +
+  geom_line() +
+  facet_wrap(~ transceiver_id, ncol = 1) +
+  theme_bw() +
+  labs(x = NULL,
+       y = "Proportion VTT Tags Read (Averaged Across Antennae)",
+       title = paste0(site, ", ", year))
+
 # summary of vtt reads by site and year for each spawning season
 vtt_summ = vtt_per_day %>%
   # create new df with each unique combo of site_code, year, and transceiver_id present in data
