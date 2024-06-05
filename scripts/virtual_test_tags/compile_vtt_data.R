@@ -179,7 +179,7 @@ vtt_per_day %>%
   theme_bw() +
   labs(x = NULL,
        y = "Proportion VTT Tags Read (Averaged Across Antennae)",
-       title = paste0(site, ", ", year))
+       title = paste0(site, ", ", yr))
 
 # summary of vtt reads by site and year for each spawning season
 vtt_summ = vtt_per_day %>%
