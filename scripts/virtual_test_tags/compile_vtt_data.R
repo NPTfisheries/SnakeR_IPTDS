@@ -206,6 +206,9 @@ vtt_summ = vtt_per_day %>%
   # set steelhead "spawning season"
   mutate(sthd = case_when(month %in% 3:5 ~ TRUE,
                           TRUE ~ FALSE)) %>%
+  # set coho "spawning season"
+  mutate(coho = case_when(month %in% 10:12 ~ TRUE,
+                          TRUE ~ FALSE)) %>%
   select(-month, -day) %>%
   # summarise the proportion of each spawning season that each transceiver was reading vtts, averaged across antenna
   group_by(site_code,
@@ -214,16 +217,18 @@ vtt_summ = vtt_per_day %>%
   summarise(
     chnk_p_vtt = mean(p_vtt[chnk == T], na.rm = T),
     sthd_p_vtt = mean(p_vtt[sthd == T], na.rm = T),
+    coho_p_vtt = mean(p_vtt[coho == T], na.rm = T),
     .groups = "drop"
   ) %>%
   # add an id for arrays
   mutate(array = paste0(site_code, "_", transceiver_id)) %>%
-  pivot_longer(cols = c(chnk_p_vtt, sthd_p_vtt),
+  pivot_longer(cols = c(chnk_p_vtt, sthd_p_vtt, coho_p_vtt),
                names_to = "species",
                values_to = "p_vtt") %>%
   mutate(species = recode(species,
-                          chnk_p_vtt = "Chinook salmon",
-                          sthd_p_vtt = "Steelhead")) %>%
+                          chnk_p_vtt = "Chinook",
+                          sthd_p_vtt = "Steelhead",
+                          coho_p_vtt = "Coho")) %>%
   # remove 2024 for now, incomplete data
   filter(year != 2024)
 
